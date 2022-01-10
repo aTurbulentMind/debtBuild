@@ -19,7 +19,7 @@ Bremerton, WA 98312</p>
 
     <div class="social">
         <h2>We have an active LinkedIn account</h2>
-        <a href="https://www.linkedin.com/company/debt-net/">  <img src="/src/assets/img/linked.png" alt=""></a> 
+        <a href="https://www.linkedin.com/company/debt-net/">  <img src="img/linked.png" alt=""></a> 
     </div>
 
     <div class="form">

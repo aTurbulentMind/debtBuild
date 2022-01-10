@@ -2,7 +2,7 @@
    
 
    <div class="label">
-     <img src="images/logo.png" alt="">
+     <img src="img/logo.png" alt="">
    </div>
 
 	<nav sveltekit:prefetch class="navbar">

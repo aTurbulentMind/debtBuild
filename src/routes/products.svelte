@@ -3,7 +3,7 @@
     <ul>
       
   <li class="dropdown">
-    <a href="#products" class="dropbtn">Products</a>
+    <a href="/" class="dropbtn">Products</a>
     <div class="dropdown-content">
       <a href="/">PowerS</a>
       <a href="/">Prestige</a>
@@ -18,7 +18,7 @@
     </div>
   </li>
   <li class="dropdown">
-    <a href="#feat" class="dropbtn">Features</a>
+    <a href="/" class="dropbtn">Features</a>
     <div class="dropdown-content">
       <a href="/features">Packages</a>
       <a href="/eso">ESO's</a>
@@ -26,27 +26,27 @@
   </li>
 </ul>
 
-        <h1 id="top" >Sales Approach</h1>
+<h1 id="top" >Sales Approach</h1>
     <p>Our interactive sales approach ensures that time and care are taken, that the match between your company and our software is the best it can be. If you feel the software may address your needs or you would like additional information, contact our marketing staff and we can help you begin a comprehensive software analysis. After a comprehensive analysis, our marketing staff can then put together a price quote package for you.
-<br><br>
-During the comprehensive analysis, not only will you work with our marketing staff, but you will also be introduced to other team members, such as our software trainers. We employs trainers versed in collection industry needs, so when they assist you in the an evaluation of the Debt$Net® software, you can be assured that your questions will be answered and your concerns addressed.
-<br><br>
-Our software trainers utilize guided Walk- Thrus of the fully-functional version of Debt$Net®. Walk-thrus show how your business practices will be met by our software, how the software handles standard procedures and identifies special requirements. This is an excellent time to ask in-depth questions and offer real world scenarios so you are confident that Debt$Net® will meet your needs. The walk-thrus are broken down by the following categories: </p>
+    <br><br>
+    During the comprehensive analysis, not only will you work with our marketing staff, but you will also be introduced to other team members, such as our software trainers. We employs trainers versed in collection industry needs, so when they assist you in the an evaluation of the Debt$Net® software, you can be assured that your questions will be answered and your concerns addressed.
+    <br><br>
+    Our software trainers utilize guided Walk- Thrus of the fully-functional version of Debt$Net®. Walk-thrus show how your business practices will be met by our software, how the software handles standard procedures and identifies special requirements. This is an excellent time to ask in-depth questions and offer real world scenarios so you are confident that Debt$Net® will meet your needs. The walk-thrus are broken down by the following categories: </p>
 
-<ul class="list"> 
-<li>Agency configuration - client screens -debtor and account screens</li>
-<li>Collection manager - collector's work area</li>
-<li>Trust accounting - transactions and payments</li>
-<li> Administrative and management procedures</li>
-<li>IT staff - system configuration and demands</li>
-</ul>
-<p>
-After your company has thoroughly evaluated Debt$Net® and purchase options and add on features selected, our marketing staff will put together a price quote package incorporating the needs of your company.
-<br><br>
-At The Computer Manager, Inc. we value your company and want you to feel confident that using Debt$Net® collection software is right for you.</p>
-
-    <h1 id="products">Products</h1>
-    <p>There are two Debt$Net® collection software products: Debt$Net® Prestige, a SQL client server system designed for mid to large sized agencies and Debt$Net® Power, designed to optimize business operations on a local area network.
+      <ul class="list"> 
+      <li>Agency configuration - client screens -debtor and account screens</li>
+    <li>Collection manager - collector's work area</li>
+    <li>Trust accounting - transactions and payments</li>
+    <li> Administrative and management procedures</li>
+    <li>IT staff - system configuration and demands</li>
+    </ul>
+    <p>
+    After your company has thoroughly evaluated Debt$Net® and purchase options and add on features selected, our marketing staff will put together a price quote package incorporating the needs of your company.
+    <br><br>
+    At The Computer Manager, Inc. we value your company and want you to feel confident that using Debt$Net® collection software is right for you.</p>
+    
+        <h1 id="products">Products</h1>
+        <p>There are two Debt$Net® collection software products: Debt$Net® Prestige, a SQL client server system designed for mid to large sized agencies and Debt$Net® Power, designed to optimize business operations on a local area network.
 <br><br>
 Licenses for either product can be purchased outright or we also offer a month to month subscription program called Running Start. Our products are module, and you may even purchase a Venture, feature-block system if you don't require a full system. Add on modules called Extended Service Options allow you to expand the business features of the core product to accommodate agency needs such as skip tracing or letter outsourcing.
 <br><br>

@@ -16,11 +16,11 @@
 	</div>
 
 	<div class="prodBar">
-		<img class="prodImg" src="/src/assets/img/power.png" alt="" />
-		<img src="/src/assets/img/prestige.png" alt="" />
+		<img class="prodImg" src="img/power.png" alt="" />
+		<img src="img/prestige.png" alt="" />
 	</div>
 
-	<img class="prodImg" style="margin-top:345px;" src="/src/assets/img/power.jpg" alt="" />
+	<img class="prodImg" style="margin-top:345px;" src="img/power.jpg" alt="" />
 	<p>
 		Debt$Net® Prestige is the latest product by Debt$Net® Collection Software. This version of the
 		award-winning collection agency software is SQL based using the powerful SQL Server by
@@ -29,7 +29,7 @@
 		stability required by high capacity business.
 	</p>
 
-	<img class="prodImg" src="/src/assets/img/prestige.jpg" alt="" />
+	<img class="prodImg" src="img/prestige.jpg" alt="" />
 
 	<p>
 		Debt$Net® Power is the heritage product by Debt$Net® Collection Software. For over 20 years,
