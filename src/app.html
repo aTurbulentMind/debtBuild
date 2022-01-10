@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+
+		<!--font lives here-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,600;0,800;1,100;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%svelte.head%
+	</head>
+
+	<style>
+	::-webkit-scrollbar {
+    width: 0.65rem;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(11, 8, 14);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0a3176;
+}
+</style>
+
+	<body>
+		<div id="svelte">%svelte.body%</div>
+	</body>
+</html>

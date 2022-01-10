@@ -1,0 +1,138 @@
+@import 'vari';
+
+    * { 
+        padding:0;
+        margin: 0;
+    }
+ 
+body {
+        background: $backgroundMain;
+        color: $textMain;
+        font-family: $mainFont;
+        font-size: 2vw;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: $highlight;
+    }
+
+    h1 {
+        margin:7%;
+        font-size: 3vw;
+    }
+
+    h2 {
+        margin:7%;
+        font-size: 2.5vw;
+    }
+
+    h3 {
+        margin:7%;
+        font-size: 2.25vw;
+    }
+
+    p {
+        font-size: 2vw;
+        margin: 7%;
+        line-height: 1.5;
+    }
+
+    //to-the-top-button
+
+    .quick {
+        @include glassBack();
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 2px;
+        margin-left: 1%;
+        transform: translateY(-50%);
+        font-weight: bold;
+        z-index: 3;
+        transition: 0.04s 0.2s;
+        cursor: default;
+        border-radius: 8px;
+        
+
+
+        &:hover {
+            text-shadow: 1px 1px 8px  $textSecond;
+        }
+    }
+
+
+
+    //respo
+
+      @media (max-width: 991px) {
+        p, h1, h2, h3 {
+            margin: 13%;
+        }
+
+        .feature-text {
+            
+                font-size: 2.75vw;
+            
+        }
+      }
+
+      @media (max-width: 768px) {
+         
+        h1{
+            font-size: 4vw;
+            margin:15% 12%;
+        }
+
+        h2{
+            font-size:3.75vw;
+            margin:15% 12%;
+        }
+
+        h3{
+            font-size:3.5vw;
+            margin:15% 12%;
+        }
+        
+        p {
+            margin:15% 12%;
+            font-size: 3.35vw;
+        }
+
+        a{
+            font-size:3.25vw;
+        }
+
+        .quick{
+            margin-bottom: 17%;
+            background: $backgroundMain;
+        }
+
+
+        #bottom20{
+            margin-bottom:20%;
+        }
+
+        #bottom {
+            margin: 110% 0;
+        }
+
+        #bottom80 {
+            margin: 80% 0 10% 4%;
+        }
+      }
+
+      @media (min-width:750px) {
+
+        
+
+      }
+
+      @media (min-width:1000px) {
+
+        
+
+      }
+
