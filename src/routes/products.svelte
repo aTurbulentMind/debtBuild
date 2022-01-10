@@ -9,14 +9,14 @@
     <ul>
       
   <li class="dropdown">
-    <a href="/" class="dropbtn">Products</a>
+    <p class="dropbtn"> Products</p>
     <div class="dropdown-content">
       <a href="/">PowerS</a>
       <a href="/">Prestige</a>
     </div>
   </li>
   <li class="dropdown">
-    <a href="/" class="dropbtn">Services</a>
+     <p class="dropbtn"> Services</p>
     <div class="dropdown-content">
       <a href="#train">Training</a>
       <a href="#eva">Evaluation support</a>
@@ -24,7 +24,7 @@
     </div>
   </li>
   <li class="dropdown">
-    <a href="/" class="dropbtn">Features</a>
+     <p class="dropbtn">Features</p> 
     <div class="dropdown-content">
       <a href="/features">Packages</a>
       <a href="/eso">ESO's</a>
@@ -157,6 +157,11 @@ ul {
   background-color: $extra;
   border-radius: 3px;
   box-shadow: 0 3px 8px 3px $textMain;
+
+  p {
+    margin: 0;
+    cursor: pointer;
+  }
 }
 
 li {
