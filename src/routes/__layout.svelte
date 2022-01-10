@@ -248,7 +248,20 @@ svg {
     &:hover{
       background-color: $highlight;
     }
+
+    svg {
+  max-width: 1.75rem;
+  margin: 0 1rem;
+}
   }
+
+  .nav-extra li a {
+        padding: 2px;
+        background: #fff;
+        display:none;
+    
+
+}
 
   .fa-primary {
   color: $backgroundMain;
