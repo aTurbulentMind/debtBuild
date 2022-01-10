@@ -151,7 +151,7 @@ Click <a href="/features">here</a> to see the many features Debt$Net® offer.</h
     
 ul {
   float: right;
-  margin: 10% 10% 10% 0;
+  margin: 13%;
   list-style-type: none;
   overflow: hidden;
   background-color: $extra;
