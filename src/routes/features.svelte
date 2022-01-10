@@ -181,8 +181,8 @@
 
       @media (max-width: 768px) {
            .feature {
-    margin: 10% 8%;
-    gap: 4%;
+    margin: 5%;
+    gap: 0;
     padding: 10px;
 
         h2{
