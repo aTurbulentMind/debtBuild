@@ -11,8 +11,8 @@
   <li class="dropdown">
     <p class="dropbtn"> Products</p>
     <div class="dropdown-content">
-      <a href="/">PowerS</a>
-      <a href="/">Prestige</a>
+      <a href="#power">PowerS</a>
+      <a href="#pres">Prestige</a>
     </div>
   </li>
   <li class="dropdown">
@@ -51,7 +51,7 @@
     <br><br>
     At The Computer Manager, Inc. we value your company and want you to feel confident that using Debt$Net® collection software is right for you.</p>
     
-        <h1 id="products">Products</h1>
+        <h1>Products</h1>
         <p>There are two Debt$Net® collection software products: Debt$Net® Prestige, a SQL client server system designed for mid to large sized agencies and Debt$Net® Power, designed to optimize business operations on a local area network.
 <br><br>
 Licenses for either product can be purchased outright or we also offer a month to month subscription program called Running Start. Our products are module, and you may even purchase a Venture, feature-block system if you don't require a full system. Add on modules called Extended Service Options allow you to expand the business features of the core product to accommodate agency needs such as skip tracing or letter outsourcing.
@@ -60,9 +60,9 @@ The sales quotes for a Debt$Net® system can offer cash, credit card, lease, sub
 <br><br>
 Below are further descriptions of the product and purchasing options available:</p>
 
-<h2>Debt$Net® Prestige,</h2>
+<h2 id="pres">Debt$Net® Prestige,</h2>
 <p>is premise based and licensed on a per user basis. This award-winning collection software was developed with enterprise agencies in mind. It does require SQL server software and starts at $6,000.</p>
-<h2>Debt$Net® Power,</h2>
+<h2 id="power">Debt$Net® Power,</h2>
 <p> is also premise based and licensed on a per user basis. This version of the software is designed to optimize business operations on a local area network. Debt$Net® Power starts at $4,000.</p>
 
 <h2>Debt$Net® Venture,</h2>
@@ -151,7 +151,7 @@ Click <a href="/features">here</a> to see the many features Debt$Net® offer.</h
     
 ul {
   float: right;
-  margin-right: 10%;
+  margin: 10% 10% 10% 0;
   list-style-type: none;
   overflow: hidden;
   background-color: $extra;
