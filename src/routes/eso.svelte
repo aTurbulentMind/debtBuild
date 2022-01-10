@@ -417,7 +417,7 @@ li.dropdown {
     }
 
     .affBox-item{
-      margin: 25% 2%;
+      margin: 7% 2%;
 
       
 
