@@ -1,6 +1,11 @@
 <body>
+
+    <div class="entryImg">
+		<img class="bigger" src="img/Valley.jpg" alt="" />
+  
+        <div class="centered"> <h1>Staff & Our Story</h1></div>
+    </div>
     
-    <h1>Our Story</h1>
 
     <p>Founded in 1987 by principals Tony LaMagna and Gary Grout, the company has developed and provides the industry their premier core product, Debt$Net®, as well as supporting software modules, training, custom programming and technical support.</p>
     <p>Debt$Net®, created by The Computer Manager, Inc., has provided collection agencies, law firms, debt buyers and in-house collection departments with one of the most comprehensive debt collection systems in the industry. Proven in the field, Debt$Net® collection software has satisfied the debt recovery requirements for over 1,000 companies specializing in Retail, Commercial, Medical, Receivables Management and Check Collections. Debt$Net® users can be found throughout the United States and Canada.</p>

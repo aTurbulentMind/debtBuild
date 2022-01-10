@@ -100,7 +100,11 @@
 	
 .navbar {
   
-  @include glassBack();
+  background:$backgroundHallow;
+    box-shadow: 0 3px 8px 3px $textMain;
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 
   position: fixed;
   right: 0;
@@ -130,7 +134,8 @@
 .nav-link {
   display: flex;
   align-items: center;
-  height: 5rem;
+  height: 4rem;
+  padding: 3%;
   color: $textMain;
   font-weight: 600;
   text-decoration: none;

@@ -1,5 +1,11 @@
 <body>
 
+   <div class="entryImg">
+		<img class="bigger" src="img/Cover.jpg" alt="" />
+  
+        <div class="centered"> <h1 id="top" >Sales Approach</h1></div>
+    </div>
+
     <ul>
       
   <li class="dropdown">
@@ -26,7 +32,7 @@
   </li>
 </ul>
 
-<h1 id="top" >Sales Approach</h1>
+
     <p>Our interactive sales approach ensures that time and care are taken, that the match between your company and our software is the best it can be. If you feel the software may address your needs or you would like additional information, contact our marketing staff and we can help you begin a comprehensive software analysis. After a comprehensive analysis, our marketing staff can then put together a price quote package for you.
     <br><br>
     During the comprehensive analysis, not only will you work with our marketing staff, but you will also be introduced to other team members, such as our software trainers. We employs trainers versed in collection industry needs, so when they assist you in the an evaluation of the Debt$Net® software, you can be assured that your questions will be answered and your concerns addressed.

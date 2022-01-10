@@ -1,5 +1,14 @@
 <body>
-	<h1>Debt collection software by The Computer Manager, inc.</h1>
+
+
+	<div class="entryImg">
+		<img src="img/Mt.jpg" alt="" />
+  
+        <div class="centered"> <h1> Debt collection software by The Computer Manager, inc.</h1></div>
+</div>
+
+	
+
 
 	<p>
 		Debt$Net®, has provided collection agencies, law firms, debt buyers and in-house collection
@@ -193,6 +202,8 @@
 			margin: 4% 0;
 		}
 	}
+
+
 
 
 </style>

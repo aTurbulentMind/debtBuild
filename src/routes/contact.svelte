@@ -1,5 +1,10 @@
 <body>
-    <h1>Contact Us</h1>
+
+    <div class="entryImg">
+		<img class="bigger" src="img/Ferry.jpg" alt="" />
+  
+        <div class="centered"> <h1>Contact Us</h1></div>
+    </div>
 
     <div class="call">
         <h2>Give us a call at:</h2>
@@ -19,7 +24,7 @@ Bremerton, WA 98312</p>
 
     <div class="social">
         <h2>We have an active LinkedIn account</h2>
-        <a href="https://www.linkedin.com/company/debt-net/">  <img src="img/linked.png" alt=""></a> 
+        <a href="https://www.linkedin.com/company/debt-net/">  <img class="socImg" src="img/linked.png" alt=""></a> 
     </div>
 
     <div class="form">
@@ -64,7 +69,7 @@ Bremerton, WA 98312</p>
         }
     }
 
-    img {
+    .socImg {
     width: 60%;
     height: 60%;
     margin: 0 18% 10% 18%;
@@ -116,6 +121,8 @@ Bremerton, WA 98312</p>
         transform: scale(1.05);
         }
  }
+
+    
 
   @media (max-width: 768px) {
       .form {

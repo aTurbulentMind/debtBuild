@@ -1,9 +1,14 @@
 <body>
-    <h1 id="top" >Affiliates and Requirments</h1>
+
+  <div class="entryImg">
+		<img class="bigger" src="img/leaf.jpg" alt="" />
+  
+        <div class="centered"> <h1>Affiliates and Requirments</h1></div>
+    </div>
 
     
 
-    <p>Nice words about out our awesome partners and affiliates.</p>
+    <h2>Nice words about out our awesome partners and affiliates.</h2>
 
 <div class="affBox">
   <div class="affBox-item">
