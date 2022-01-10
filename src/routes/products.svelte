@@ -40,11 +40,11 @@
     Our software trainers utilize guided Walk- Thrus of the fully-functional version of Debt$Net®. Walk-thrus show how your business practices will be met by our software, how the software handles standard procedures and identifies special requirements. This is an excellent time to ask in-depth questions and offer real world scenarios so you are confident that Debt$Net® will meet your needs. The walk-thrus are broken down by the following categories: </p>
 
       <ul class="list"> 
-      <li>Agency configuration - client screens -debtor and account screens</li>
-    <li>Collection manager - collector's work area</li>
-    <li>Trust accounting - transactions and payments</li>
-    <li> Administrative and management procedures</li>
-    <li>IT staff - system configuration and demands</li>
+      <li>Agency configuration - client screens -debtor and account screens.</li>
+    <li>Collection manager - collector's work area.</li>
+    <li>Trust accounting - transactions and payments.</li>
+    <li> Administrative and management procedures.</li>
+    <li>IT staff - system configuration and demands.</li>
     </ul>
     <p>
     After your company has thoroughly evaluated Debt$Net® and purchase options and add on features selected, our marketing staff will put together a price quote package incorporating the needs of your company.
