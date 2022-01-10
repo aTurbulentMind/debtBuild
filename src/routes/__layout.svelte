@@ -250,7 +250,7 @@ svg {
     }
 
     svg {
-  max-width: 1.75rem;
+  max-width: 1.25rem;
   margin: 0 .25rem;
 }
   }

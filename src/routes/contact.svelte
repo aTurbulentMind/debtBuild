@@ -137,11 +137,13 @@ Bremerton, WA 98312</p>
       }
    }
 
-   img {
-    width: 80%;
-    height: 80%;
-    margin: 10%;
+   .socImg {
+    width: 90%;
+    height: 90%;
+    margin: 10% 5%;
  }
   }
+
+  
 
 </style>
