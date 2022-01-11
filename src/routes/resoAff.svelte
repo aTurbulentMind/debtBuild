@@ -459,7 +459,7 @@
     }
 
     .affBox-item{
-      margin: 25% 2%;
+      margin:  2%;
 
       
 
