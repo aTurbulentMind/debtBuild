@@ -365,9 +365,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 4%;
-    
-    
-}
+  }
 
 .affBox-item {
     @include glassBack();
@@ -387,7 +385,7 @@
     img{
         max-width: 100%;
     }
-}
+  }
 
 
 .reqBox {
@@ -468,7 +466,7 @@
     }
 
     .affBox-item{
-      margin:  2%;
+      margin: 30% 2%;
 
       grid: 1fr;
 
