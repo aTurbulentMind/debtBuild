@@ -89,6 +89,7 @@
 </div>
 
 <br><br>
+<img class="breaker" src="img/UMS.png" alt="">
 <h2 id="bottom80">Requirments:</h2>
 
 <div class="reqBox">
@@ -449,7 +450,7 @@
       
       @media (max-width: 768px) {
        .affBox {
-         max-height: 100%;
+         max-height: 40%;
          margin: 0 4% 45% 0;
          gap: 4%;
          padding: 6px;
@@ -457,6 +458,11 @@
         h2{
       font-size: 2.5vw;
     }
+    }
+
+    .breaker{
+      width:100%;
+      margin: 15% 0;
     }
 
     .affBox-item{
