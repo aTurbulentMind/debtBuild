@@ -449,9 +449,10 @@
       
       @media (max-width: 768px) {
        .affBox {
-    margin: 0 4%;
-    gap: 4%;
-    padding: 6px;
+         max-height: 100%;
+         margin: 0 4% 45% 0;
+         gap: 4%;
+         padding: 6px;
 
         h2{
       font-size: 2.5vw;
