@@ -407,7 +407,8 @@ li.dropdown {
 
       @media (max-width: 768px) {
        .affBox {
-    margin: 0 4%;
+    display: block;
+    margin: 0 4% 10% 0;
     gap: 4%;
     padding: 6px;
 
