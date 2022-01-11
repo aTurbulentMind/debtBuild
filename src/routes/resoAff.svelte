@@ -89,7 +89,7 @@
 </div>
 
 <br><br>
-<img class="breaker" src="img/UMS.png" alt="">
+
 <h2 id="bottom80">Requirments:</h2>
 
 <div class="reqBox">
@@ -450,7 +450,9 @@
       
       @media (max-width: 768px) {
        .affBox {
-         max-height: 40%;
+         grid-template-columns:1fr;
+         grid-template-rows:2fr;
+         
          margin: 0 4% 45% 0;
          gap: 4%;
          padding: 6px;
@@ -468,7 +470,7 @@
     .affBox-item{
       margin:  2%;
 
-      
+      grid: 1fr;
 
       h2{
         display:none;
