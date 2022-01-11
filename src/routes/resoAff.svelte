@@ -448,8 +448,7 @@
       
       @media (max-width: 768px) {
        .affBox {
-         grid-template-columns:1fr;
-         grid-template-rows:2fr;
+         display: block;
          
          margin: 0 4% 45% 0;
          gap: 4%;
@@ -468,7 +467,6 @@
     .affBox-item{
       margin: 30% 2%;
 
-      grid: 1fr;
 
       h2{
         display:none;
