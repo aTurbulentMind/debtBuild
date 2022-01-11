@@ -38,11 +38,6 @@
     <p class="affBox-text">Accurint is a collection industry skip tracing service which maintains a comprehensive consumer database containing over 20 billion records compiled from more than 400 sources. At a minimum, these sources confirm existing records and offer multiple telephone, name and address records. <span> <br> Website: <br></span><a href="https://risk.lexisnexis.com/collections-and-recovery?utm_campaign=bsemgn18.em_vanity.2018vanity&utm_medium=vanityurl&utm_source=pdf&utm_content=collections&utm_term=collections"> risk.lexisnexis.com</a></p>
   </div>
 
-  <div class="affBox-item">
-    <h2>Acollaid Interface </h2>
-    <img src="img/lexis.png" alt="">
-    <p class="affBox-text">Acollaid is a collection industry skip tracing service which maintains a comprehensive consumer database containing over 120 million households, most with telephone and social security numbers. The Acollaid Module provides an interface between the Acollaid database and Debt$Net® . (To use this interface you must first be a subscriber with Acollaid.)</p>
-  </div>
 
   <div class="affBox-item">
     <h2>BANKO® Interface Module </h2>
@@ -171,20 +166,6 @@
   </div>
 
   <div class="affBox-item">
-    <h2>CT Center Interface</h2>
-    <img src="img/iats.jpg" alt="">
-    <p class="affBox-text">
-    The CT Center interface is a fully integrated, multi-faceted communication solution, providing predictive dialing, interactive communication, real-time host integration, skill-based routing and detailed reporting. CT Center from IAT allows your collectors to work larger volumes of calls with inbound and outbound call blending, in addition to keeping the debtors on the phone with speak hold and music on-hold messages. The CT Center system dials the debtor for the collector, only transferring successful connections directly to the collector.</p>
-  </div>
-
-  <div class="affBox-item">
-    <h2>Predictive Dialing Interface</h2>
-    <img src="img/iats.jpg" alt="">
-    <p class="affBox-text">
-    The Predictive Dialing Interface module allows agencies to utilize technology designed to increase collector productivity by providing a steady stream of available debtors while eliminating telephone dialing time and time spent talking to message takers or answering machines. A predictive dialing system coupled with the Predictive Dialing Interface module functions by dialing a list of debtors and passing available debtors to the collector. At the same time debtor identification information is transmitted to Debt$Net® so that the debtor automatically displays on the screen.</p>
-  </div>
-
-  <div class="affBox-item">
     <h2>VoApps Interface</h2>
     <img src="img/voapps.png" alt="">
     <p class="affBox-text">
@@ -240,14 +221,7 @@
 <br><br><br>
     <h2 id="cliAcc">Client Access</h2>
 
-<div class="affBox">
-
-  
-  <div class="affBox-item">
-    <h2>Client View Module</h2>
-    <p class="affBox-text">
-    The Client View Module allows clients to access an agency's Debt$Net® system from their location. Clients may review accounts they have turned over to the agency for collection. Access is password protected using remote access software and allows clients to review (but not modify) debtor accounts, payment history, notice history, promises made and collector notes.</p>
-  </div>      
+<div class="affBox">    
 
   <div class="affBox-item">
     <h2>WebAccess Interface</h2>
@@ -262,19 +236,8 @@
     <h2 id="speci">Specialization</h2>
 
 <div class="affBox" id="bottom20" >
+    
 
-  
-  <div class="affBox-item">
-    <h2>Batch RCK Interface</h2>
-    <p class="affBox-text">
-        The Batch RCK Interface module allows an agency to electronically redeposit NSF checks prior to normal collections on accounts. The process is done in batch form, which reduces data entry. The module creates an outgoing file which is sent to an Automated Clearing House service and receives the return file which automatically enters any transactions needed on successful checks. The cost of collections will be reduced with less contact and less paper being sent.</p>
-  </div>      
-
-  <div class="affBox-item">
-    <h2>Check Verification</h2>
-    <p class="affBox-text">
-    The Check Verification Module allows an agency to download the status of NSF check collection accounts into the check verification system. The module produces a file containing the new checks to be added to the verification system's negative database, in addition to a list of paid checks to be deleted. The Check Verification Module supports a number of check verification vendors and provides you with a menu selection to create the download file. The Check Verification Module simplifies the maintenance of your verification system. As NSF accounts are placed or paid off, Debt$Net tracks and reports that information to the verification system.</p>
-  </div>
 
   <div class="affBox-item">
     <h2>Judgment Tracking Module</h2>
@@ -288,17 +251,6 @@
     The Legal Accounting module provides line item tracking of legal expenses incurred during the collection process. Users may track expenses incurred by the agency as well as those prepaid by the client and can instantly tell if a legal expense payment was received from a debtor and whether the client was reimbursed.</p>
   </div>
 
-  <div class="affBox-item">
-    <h2>MICR Reader Module</h2>
-    <p class="affBox-text">
-    The MICR Reader module simplifies the input of NSF checks into Debt$Net®. The MICR Reader allows the check to be scanned during the account add process. Debt$Net® then checks existing debtors to find matches to the bank routing number and account number combination.</p>
-  </div>
-
-  <div class="affBox-item" >
-    <h2>MICR Scanner Module</h2>
-    <p class="affBox-text">
-    The MICR Scanner module is the interface for a check scanner (MAGTEK MICR-scanner) with Debt$Net®. The scanner allows you to scan check information and store that information on the debtor's accounts. When this ESO is combined with the Document Imaging module, you can view the image of the check on the account screen, which can then be used in notices to your debtors.</p>
-  </div>
 </div>
 
 <div class="quick"> <a sveltekit:prefetch href="#top"> To <br> Top</a>
