@@ -450,7 +450,7 @@
        .affBox {
          display: block;
          
-         margin: 0 4% 25% 0;
+         margin: 0 4% 20% 0;
          gap: 4%;
          padding: 6px;
 
