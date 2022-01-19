@@ -101,10 +101,10 @@
 .navbar {
   
   background:$backgroundHallow;
-    box-shadow: 0 3px 8px 3px $textMain;
-    backdrop-filter: blur(1.5px);
-    -webkit-backdrop-filter: blur(1.5px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 3px 8px 3px $textMain;
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 
   position: fixed;
   right: 0;

@@ -137,13 +137,11 @@
 
     height: fit-content;
     contain: content;
-    padding: 20px;
+    
     margin: 10% 0;
     line-height: 1.7;
     overflow: hidden;
     border-radius: 7px;
-
-    
 
     img{
         max-width: 100%;
@@ -152,7 +150,7 @@
 
 .feature-text{
   
-    font-size:1.5vw;
+    font-size:1.15vw;
     
 }
 

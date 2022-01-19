@@ -10,6 +10,7 @@ body {
         color: $textMain;
         font-family: $mainFont;
         font-size: 2vw;
+        overflow-x: hidden;
     }
 
 
@@ -20,22 +21,22 @@ body {
 
     h1 {
         margin:7%;
-        font-size: 3vw;
+        font-size: 2.25vw;
     }
 
     h2 {
         margin:7%;
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     h3 {
         margin:7%;
-        font-size: 2.25vw;
+        font-size: 1.75vw;
     }
 
     p {
-        font-size: 1.75vw;
-        margin: 7%;
+        font-size: 1.5vw;
+        margin: 15%;
         line-height: 1.5;
     }
 
@@ -126,12 +127,12 @@ body {
       @media (max-width: 768px) {
          
         h1{
-            font-size: 4vw;
+            font-size: 4.5vw;
             margin:15% 12%;
         }
 
         h2{
-            font-size:3.75vw;
+            font-size:4vw;
             margin:15% 12%;
         }
 
@@ -142,7 +143,7 @@ body {
         
         p {
             margin:15% 12%;
-            font-size: 3.75vw;
+            font-size: 3.25vw;
         }
 
         a{
@@ -176,19 +177,9 @@ body {
         }
 
         #bottom80 {
-            margin: 80% 0 10% 4%;
+            margin: 40% 0 25% 4%;
         }
       }
 
-      @media (min-width:750px) {
-
-        
-
-      }
-
-      @media (min-width:1000px) {
-
-        
-
-      }
+     
 

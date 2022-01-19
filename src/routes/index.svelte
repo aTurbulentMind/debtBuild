@@ -29,7 +29,8 @@
 		<img src="img/prestige.png" alt="" />
 	</div>
 
-	<img class="prodImg" style="margin-top:345px;" src="img/power.jpg" alt="" />
+	<img class="prodImg" src="img/prestige.jpg" alt="" />
+	
 	<p>
 		Debt$Net® Prestige is the latest product by Debt$Net® Collection Software. This version of the
 		award-winning collection agency software is SQL based using the powerful SQL Server by
@@ -38,7 +39,7 @@
 		stability required by high capacity business.
 	</p>
 
-	<img class="prodImg" src="img/prestige.jpg" alt="" />
+	<img class="prodImg" src="img/power.jpg" alt="" />
 
 	<p>
 		Debt$Net® Power is the heritage product by Debt$Net® Collection Software. For over 20 years,
@@ -52,7 +53,7 @@
   
 	<div>
 		<h2>Capital Recovery Systems</h2>
-		<h3>
+		<h3 id="subSpace">
 			"My agency has been using Debt$Net™ for 5 years and we have been very satisfied with both the
 			product and the service."
 		</h3>
@@ -64,13 +65,15 @@
 			service. We are on the East Coast, and although there is a time difference, they have tech
 			support available for all times of the day. In summary, I would strongly recommend Debt$Net®
 			for any Collection Agency trying to gain an edge in the industry.
+			<br><br>
+			<span> Joseph Tammaro</span>
 		</p>
-		<p><span> Joseph Tammaro</span></p>
+		<p></p>
 	</div>
 
 <div class="testim">
 		<h2>Remit Corporation</h2>
-		<h3>"I feel like we hit the jackpot when we found Debt$Net®."</h3>
+		<h3 id="subSpace">"I feel like we hit the jackpot when we found Debt$Net®."</h3>
 		<p>
 			I have been in the collection industry for 30 years, since the age of 12, when my family
 			opened a collection system. I feel like we hit the jackpot when we found Debt$Net®. We have
@@ -81,13 +84,15 @@
 			have found no other software firm that offers the flexibility, functionality and
 			responsiveness and cost effectiveness of Debt$Net®. We look optimistically toward a future of
 			many more years with our friend at the Computer Manager.
+			<br><br>
+			<span> Harry Strausser</span>
 		</p>
-		<p><span> Harry Strausser</span></p>
+		<p></p>
 	</div>
 
 	<div>
 		<h2>CEO - Receivables Management Solutions, Inc. (RMS)</h2>
-		<h3>
+		<h3 id="subSpace">
 			"Throughout the 8 years that RMS has been using Debt$Net®,we have consistant product quality,
 			annual updates, and improvements to the Debt$Net® software."
 		</h3>
@@ -103,9 +108,9 @@
 			programmers have made my wishes come true. Ask and will receive! That's the approach I use
 			when making business decisions that focus on growth and success. I support Debt$Net and
 			recommend it to anyone who is looking for a produvt that works as well as a big product,
-			without big cost.
+			without big cost. <br> <br> <span> Robert Dunham</span>
 		</p>
-		<p id="bottom20" ><span> Robert Dunham</span></p>
+		<p id="bottom20" ></p>
 
     
 	</div>
@@ -126,8 +131,10 @@
 	}
 
 	span {
-		margin: 0 0 10% 18%;
+		margin: 0 0 4% 18%;
 	}
+
+	
 
 	.prodBar {
 		width: 100%;
@@ -140,6 +147,8 @@
 			margin: -8% 6%;
 		}
 	}
+
+	
 
 	.prodImg {
 		margin: 10% 10% 0% 10%;
@@ -170,6 +179,11 @@
 	.testim {
 		background: $extra;
 		color: $backgroundMain;
+		padding: 4% 0;
+	}
+
+	#subSpace{
+		margin-bottom: -8%;
 	}
 
 	@media (max-width: 991px) {
@@ -182,6 +196,9 @@
 		}
 	}
       }
+
+
+	  
 
 	  @media (max-width: 768px) {
          
@@ -207,3 +224,5 @@
 
 
 </style>
+
+

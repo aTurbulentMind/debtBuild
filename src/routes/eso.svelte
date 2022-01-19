@@ -278,18 +278,19 @@
 
     height: fit-content;
     contain: content;
-    padding: 20px;
+    
     margin: 15% 0;
     line-height: 1.7;
     overflow: hidden;
     border-radius: 7px;
 
     p{
-    font-size:1.25vw;
+    font-size:1.15vw;
     }
 
     img{
-        max-width: 100%;
+        max-width: 80%;
+        margin: 10%;
     }
 }
 

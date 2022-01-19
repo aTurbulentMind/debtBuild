@@ -408,10 +408,13 @@
 
     height: fit-content;
     contain: content;
-    margin: 4%;
-    line-height: 1.7;
+    margin: 2%;
+    
     overflow: hidden;
     
+    p{
+      margin:3%;
+    }
 }
 
 .affBox-img{
@@ -473,7 +476,7 @@
       }
 
       h3{
-        font-size: 4vw;
+        font-size: 3.5vw;
       }
 
       p {
