@@ -229,8 +229,9 @@ svg {
   .navbar {
     bottom: 0;
     width: 100vw;
-    height: 5rem;
+    height: 4rem;
     background: $extra;
+
   }
 
   .logo {
