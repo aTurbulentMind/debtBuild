@@ -182,6 +182,10 @@
 		padding: 4% 0;
 	}
 
+	.centered {
+		background: #0a327681;
+    	}
+
 	#subSpace{
 		margin-bottom: -8%;
 	}
