@@ -116,7 +116,7 @@ Having collection software with all the features the agency needs is not enough.
 If you would like more information about The Computer Manager, Inc., contact:
 <br><br><br><br>
 The Computer Manager, Inc.
-toll-free at 1-800-893-6335,</p>
+toll-free at <a href="tel: +8005528397/">1-800-893-6335</a></p>
 
 
 <div class="bluBox">
