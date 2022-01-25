@@ -26,8 +26,8 @@
   <li class="dropdown">
      <p class="dropbtn">Features</p> 
     <div class="dropdown-content">
-      <a href="/features">Packages</a>
-      <a href="/eso">ESO's</a>
+      <a href="/features/">Packages</a>
+      <a href="/eso/">ESO's</a>
     </div>
   </li>
 </ul>
@@ -73,7 +73,7 @@ Below are further descriptions of the product and purchasing options available:<
 
 <h2> Extended Service Options,</h2> <p> or ESOs, allow customers to add-on business features and interfaces to grow their Debt$Net® systems as their business requires. It allows the user to only purchase those features and interfaces that are needed yet also allow them to add-on to their Debt$Net® system as they grow and their business needs expand.
     <br><br><br><br>
-    The price for Extended Service Options depends on the version and individual ESO. Client Upload, Skip Tracing, Notice Outsourcing, Credit Card Processing and ACH Processing are some of the most popular ESOs. Click <a href="/eso"> here</a> to view the entire list of Extended Service Options.</p>
+    The price for Extended Service Options depends on the version and individual ESO. Client Upload, Skip Tracing, Notice Outsourcing, Credit Card Processing and ACH Processing are some of the most popular ESOs. Click <a href="/eso/"> here</a> to view the entire list of Extended Service Options.</p>
 
 <h1>Services</h1>
 
@@ -137,7 +137,7 @@ There are three options available:
 
 <h3 id="bottom20">Debt$Net® offers all the features, flexibility and sophistication of mainframe packages at an affordable price.
 
-Click <a href="/features">here</a> to see the many features Debt$Net® offer.</h3>
+Click <a href="/features/">here</a> to see the many features Debt$Net® offer.</h3>
 
 
 <div class="quick"> <a sveltekit:prefetch href="#top"> To <br> Top</a>

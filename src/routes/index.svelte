@@ -1,3 +1,8 @@
+<head>
+	<link rel="canonical" href="https://debtnet5build.netlify.app/">
+	<meta name="description" content="Debt collection software for debt collection companies">
+</head>
+
 <body>
 
 
@@ -21,7 +26,7 @@
 	<div class="contBar">
 		<h2>Contact Us</h2>
 		<p>Whether a comment or question, we could love to hear from you.</p>
-		<a sveltekit:prefetch href="/contact">Here</a>
+		<a sveltekit:prefetch href="/contact/">Here</a>
 	</div>
 
 	<div class="prodBar">

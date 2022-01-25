@@ -8,8 +8,8 @@
 
     <div class="call">
         <h2>Give us a call at:</h2>
-        <p>Toll free: <a href="tel: +8005528397">+1(800)552-8397</a> <br>
-        Fax: <a href="+2532042349">1-253-204-2349</a> </p>
+        <p>Toll free: <a href="tel: +8005528397/">+1(800)552-8397</a> <br>
+        Fax: <a href="+2532042349/">1-253-204-2349</a> </p>
 </div>
     
     
