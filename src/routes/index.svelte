@@ -2,7 +2,7 @@
 
 
 	<div class="entryImg">
-		<img src="img/Mt.jpg" alt="" />
+		<img src="img/Mt.jpg" alt="Mt Rainer covered in snow and sun in the background of a lake view" />
   
         <div class="centered"> <h1> Debt collection software by The Computer Manager, inc.</h1></div>
 </div>
@@ -21,15 +21,15 @@
 	<div class="contBar">
 		<h2>Contact Us</h2>
 		<p>Whether a comment or question, we could love to hear from you.</p>
-		<a href="/contact">Here</a>
+		<a sveltekit:prefetch href="/contact">Here</a>
 	</div>
 
 	<div class="prodBar">
-		<img class="prodImg" src="img/power.png" alt="" />
-		<img src="img/prestige.png" alt="" />
+		<img class="prodImg" src="img/power.png" alt="the debt net power logo" />
+		<img src="img/prestige.png" alt="the debt net prestige logo" />
 	</div>
 
-	<img class="prodImg" src="img/prestige.jpg" alt="" />
+	<img class="prodImg" src="img/prestige.jpg" alt="the debt net prestige logo" />
 	
 	<p>
 		Debt$Net® Prestige is the latest product by Debt$Net® Collection Software. This version of the
@@ -39,7 +39,7 @@
 		stability required by high capacity business.
 	</p>
 
-	<img class="prodImg" src="img/power.jpg" alt="" />
+	<img class="prodImg" src="img/power.jpg" alt="the debt net power logo" />
 
 	<p>
 		Debt$Net® Power is the heritage product by Debt$Net® Collection Software. For over 20 years,
@@ -68,7 +68,7 @@
 			<br><br>
 			<span> Joseph Tammaro</span>
 		</p>
-		<p></p>
+		
 	</div>
 
 <div class="testim">
@@ -87,7 +87,7 @@
 			<br><br>
 			<span> Harry Strausser</span>
 		</p>
-		<p></p>
+		
 	</div>
 
 	<div>
@@ -205,10 +205,6 @@
 	  
 
 	  @media (max-width: 768px) {
-         
-		body {
-			overflow-x: hidden;
-		}
         
 		.prodBar {
 			display: none;

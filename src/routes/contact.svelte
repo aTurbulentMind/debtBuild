@@ -1,7 +1,7 @@
 <body>
 
     <div class="entryImg">
-		<img class="bigger" src="img/Ferry.jpg" alt="" />
+		<img class="bigger" src="img/Ferry.jpg" alt="the sun setting behind a state ferry in travel" />
   
         <div class="centered"> <h1>Contact Us</h1></div>
     </div>
@@ -24,7 +24,7 @@ Bremerton, WA 98312</p>
 
     <div class="social">
         <h2>We have an active LinkedIn account</h2>
-        <a href="https://www.linkedin.com/company/debt-net/">  <img class="socImg" src="img/linked.png" alt=""></a> 
+        <a href="https://www.linkedin.com/company/debt-net/">  <img class="socImg" src="img/linked.png" alt="screenshot of the linkden profile page for Debt Net"></a> 
     </div>
 
     <div class="form">
