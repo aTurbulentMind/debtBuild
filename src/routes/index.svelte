@@ -1,7 +1,4 @@
-<head>
-	<link rel="canonical" href="https://debtnet5build.netlify.app/">
-	<meta name="description" content="Debt collection software for debt collection companies">
-</head>
+
 
 <body>
 
