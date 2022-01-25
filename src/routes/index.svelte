@@ -27,11 +27,11 @@
 	</div>
 
 	<div class="prodBar">
-		<img class="prodImg" src="img/power.png" alt="the debt net power logo" />
-		<img src="img/prestige.png" alt="the debt net prestige logo" />
+		<img class="prodImg" src="img/PowerLogo.jpg" alt="the debt net power logo" />
+		<img src="img/PrestigeLogo.jpg" alt="the debt net prestige logo" />
 	</div>
 
-	<img class="prodImg" src="img/prestige.jpg" alt="the debt net prestige logo" />
+	<img src="img/PowerLogo.jpg" alt="the debt net prestige logo" />
 	
 	<p>
 		Debt$Net® Prestige is the latest product by Debt$Net® Collection Software. This version of the
@@ -41,7 +41,7 @@
 		stability required by high capacity business.
 	</p>
 
-	<img class="prodImg" src="img/power.jpg" alt="the debt net power logo" />
+	<img src="img/PrestigeLogo.jpg" alt="the debt net power logo" />
 
 	<p>
 		Debt$Net® Power is the heritage product by Debt$Net® Collection Software. For over 20 years,
@@ -145,16 +145,17 @@
 		margin: 20% 0 10% 0;
 
 		img {
-			min-height: 450px;
-			margin: -8% 6%;
+			max-width: 20%;
+			margin: -10% 12%;
+			border-radius: 3px;
 		}
 	}
 
 	
 
-	.prodImg {
-		margin: 10% 10% 0% 10%;
-		min-height: 125px;
+	img{
+		max-width:40%;
+		margin:0 17%;
 	}
 
 	.contBar {
