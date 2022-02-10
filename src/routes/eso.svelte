@@ -115,7 +115,7 @@
 
   <div class="affBox-item">
     <h2>Electronic Funds Transfer Interface </h2>
-    <img class="affBox-img" src="img/billingTree.png" alt="billing tree logo">
+    <img class="affBox-img" src="img/billing-tree.png" alt="billing tree logo">
     <img src="img/eftlogo.png" alt="eft logo">
     <p class="affBox-text">
     The Electronic Funds Transfer module allows collection agencies to receive electronic debtors payments, including pre-authorized electronic payments in place of postdated checks. I also allows an agency to redeposit returned checks assigned by a client. The module creates an interface file to export either to interface software to to an ACH vendor. The time and costs associated with collecting are reduced due to the reduction in bank processing time and minimized direct debtor contact reduces the time and cost associated with collecting.</p>
@@ -123,7 +123,7 @@
 
   <div class="affBox-item">
     <h2>Credit Card Interface</h2>
-    <img class="affBox-img" src="img/billingTree.png" alt="billing tree logo">
+    <img class="affBox-img" src="img/billing-tree.png" alt="billing tree logo">
     <img src="img/eftlogo.png" alt="eft logo">
     <img class="affBox-img" src="img/UMS.png" alt="ums banking logo">
     <img class="affBox-img" src="img/payscout.svg" alt="payscout logo">

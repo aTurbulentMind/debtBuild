@@ -20,23 +20,23 @@ body {
     }
 
     h1 {
-        margin:7%;
-        font-size: 2.25vw;
+        margin:7% 12%;
+        font-size: 2.75vw;
     }
 
     h2 {
-        margin:7%;
-        font-size: 2vw;
+        margin:7% 12%;
+        font-size: 2.5vw;
     }
 
     h3 {
-        margin:7%;
-        font-size: 1.75vw;
+        margin:7% 12%;
+        font-size: 2.25vw;
     }
 
     p {
-        font-size: 1.5vw;
-        margin: 15%;
+        font-size: 1.35vw;
+        margin: 10% 15%;
         line-height: 1.5;
     }
 
@@ -64,6 +64,8 @@ body {
         }
     }
 
+    
+
 
     	/* Container holding the image and the text */
     	.entryImg {
@@ -84,7 +86,7 @@ body {
     	    top: 35%;
     	    left: 35%;
     	    transform: translate(-50%, -50%);
-
+            text-transform: capitalize;
     	    background: #0a327628;
     	    box-shadow: 0 3px 12px 3px $textMain;
     	    backdrop-filter: blur(1.5px);
@@ -94,7 +96,8 @@ body {
 
     	    h1 {
 
-    	        margin: 0 4%;
+    	        margin: 0 5%;
+                padding: 1%;
     	    }
     	}
 
@@ -133,16 +136,16 @@ body {
 
         h2{
             font-size:4vw;
-            margin:15% 12%;
+            margin:15% 10%;
         }
 
         h3{
             font-size:3.75vw;
-            margin:15% 12%;
+            margin:15% 10%;
         }
         
         p {
-            margin:15% 12%;
+            margin:15% 10%;
             font-size: 3.5vw;
         }
 
@@ -160,6 +163,14 @@ body {
                 margin:0 7% 10% 0;
             }
         
+            .entryImg {
+               margin:0;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
 
         //prodPage
 

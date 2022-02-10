@@ -6,11 +6,11 @@
 	<div class="entryImg">
 		<img src="img/Mt.jpg" alt="Mt Rainer covered in snow and sun in the background of a lake view" />
   
-        <div class="centered"> <h1> Debt collection software by The Computer Manager, inc.</h1></div>
+        <div class="centered"> <h1>The Computer Manager, inc.</h1></div>
 </div>
 
 	
-
+	<h1>Debt collection software by The Computer Manager, inc.</h1>
 
 	<p>
 		Debt$Net®, has provided collection agencies, law firms, debt buyers and in-house collection
@@ -26,12 +26,9 @@
 		<a sveltekit:prefetch href="/contact/">Here</a>
 	</div>
 
-	<div class="prodBar">
-		<img class="prodImg" src="img/PowerLogo.jpg" alt="the debt net power logo" />
-		<img src="img/PrestigeLogo.jpg" alt="the debt net prestige logo" />
-	</div>
 
-	<img src="img/PowerLogo.jpg" alt="the debt net prestige logo" />
+
+	<img class="indi" src="img/PowerLogo.jpg" alt="the debt net prestige logo" />
 	
 	<p>
 		Debt$Net® Prestige is the latest product by Debt$Net® Collection Software. This version of the
@@ -41,7 +38,7 @@
 		stability required by high capacity business.
 	</p>
 
-	<img src="img/PrestigeLogo.jpg" alt="the debt net power logo" />
+	<img class="indi" src="img/PrestigeLogo.jpg" alt="the debt net power logo" />
 
 	<p>
 		Debt$Net® Power is the heritage product by Debt$Net® Collection Software. For over 20 years,
@@ -153,10 +150,6 @@
 
 	
 
-	img{
-		max-width:40%;
-		margin:0 17%;
-	}
 
 	.contBar {
 		background: $extra;
@@ -191,6 +184,11 @@
 
 	#subSpace{
 		margin-bottom: -8%;
+	}
+
+	.indi{
+		max-width:30%;
+		margin: 0 15%;
 	}
 
 	@media (max-width: 991px) {

@@ -40,10 +40,10 @@
     Our software trainers utilize guided Walk- Thrus of the fully-functional version of Debt$Net®. Walk-thrus show how your business practices will be met by our software, how the software handles standard procedures and identifies special requirements. This is an excellent time to ask in-depth questions and offer real world scenarios so you are confident that Debt$Net® will meet your needs. The walk-thrus are broken down by the following categories: </p>
 
       <ul class="list"> 
-      <li>Agency configuration - client screens -debtor and account screens.</li>
-    <li>Collection manager - collector's work area.</li>
-    <li>Trust accounting - transactions and payments.</li>
-    <li> Administrative and management procedures.</li>
+      <li>Agency configuration - client screens, debtor and account screens.</li>
+    <li>Collection manager - collector's work area.</li><br><br>
+    <li>Trust accounting - transactions and payments.</li><br>
+    <li> Administrative and management procedures.</li><br>
     <li>IT staff - system configuration and demands.</li>
     </ul>
     <p>
@@ -92,14 +92,14 @@ Below are further descriptions of the product and purchasing options available:<
 <h2 id="eva" >Software Evaluation Support</h2>
 
 <p>The evaluation of collection agency software breaks down into these basic steps:</p>
-
+<br>
 <ul class="list">
     <li>Agency Requirements Analysis</li><br>
     <li>Preliminary Market Canvas</li><br>
     <li>Comprehensive Software Feature Analysis</li><br>
     <li>Company Investigation of Software Vendors</li>
 </ul>
-<br><br><br><br>
+<br><br>
 <p>Determine agency requirements by examining agency operations. Since most software will cover "normal" business practices, you will want to pay close attention to specialized functions of your agency. The evaluation should review the categories of collections your agency pursues (retail, medical, checks, commercial) including specialized markets such as debt buying and student loans. 
     <br><br><br><br>
     
@@ -209,13 +209,13 @@ li.dropdown {
 }
 
     .list{
-        margin:-8% 20% 5% 25%;
+        margin:-8% 20% 4% 25%;
         padding: 3%;
         width: fit-content;
         display: initial;
         list-style: none;
-        background: $backgroundSecond;
-        font-size: 1.5vw;
+        background: transparent;
+        font-size: 1.25vw;
     }
 
     span{

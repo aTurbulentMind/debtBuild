@@ -59,21 +59,26 @@
       </li>
 
       <li class="nav-item">
-        <a sveltekit:prefetch href="/resources/" class="nav-link">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20"><g fill="none"><path d="M6 2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H6z" fill="currentColor"/><path d="M13 6.5a.5.5 0 0 1-.41.492L12.5 7h-5a.5.5 0 0 1-.09-.992L7.5 6h5a.5.5 0 0 1 .5.5zm0 3.5a.5.5 0 0 1-.41.492l-.09.008h-5a.5.5 0 0 1-.09-.992L7.5 9.5h5a.5.5 0 0 1 .5.5zm0 3.5a.5.5 0 0 1-.41.492L12.5 14h-5a.5.5 0 0 1-.09-.992L7.5 13h5a.5.5 0 0 1 .5.5z" fill="currentColor" class="fa-secondary"/></g></svg>
-          <span class="link-text">Affiliates & Requirements</span>
-        </a>
-      </li>
-
-      
-        
-      <li class="nav-item">
         <a sveltekit:prefetch href="/contact/" class="nav-link">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48"><g fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.8 33h2.7C34.404 33 40 27.404 40 20.5S34.404 8 27.5 8h-7C13.596 8 8 13.596 8 20.5c0 8.06 4.596 12.88 9.43 15.786c2.426 1.458 4.87 2.4 6.716 2.977c.228.071.447.137.654.197V33zm2 9s-.764-.129-2-.463C19.59 40.125 6 35.05 6 20.5C6 12.492 12.492 6 20.5 6h7C35.508 6 42 12.492 42 20.5S35.508 35 27.5 35h-.7v7z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M27.691 12.482c1.03.684 1.806 1.793 1.806 3.28c0 1.578-.636 2.738-1.667 3.448a4.523 4.523 0 0 1-1.33.614v1.532a1.5 1.5 0 0 1-3 0v-2.797a1.5 1.5 0 0 1 1.4-1.497c.554-.037.974-.147 1.227-.322a.698.698 0 0 0 .24-.272c.06-.12.13-.334.13-.707c0-.313-.122-.552-.467-.782c-.392-.26-1.022-.452-1.779-.476c-.748-.024-1.475.122-2.01.381c-.536.26-.733.552-.788.767a1.5 1.5 0 1 1-2.906-.746c.345-1.341 1.348-2.217 2.386-2.72c1.04-.505 2.263-.718 3.413-.681c1.143.036 2.363.324 3.345.978z" fill="currentColor"/><path d="M27 27a2 2 0 1 1-4 0a2 2 0 0 1 4 0z" fill="currentColor" class="fa-secondary"/></g></svg>
           <span class="link-text">Contact & Support</span>
         </a>
       </li>
-
+      <div class="hide">
+      <li class="nav-item">
+        <a sveltekit:prefetch href="/resources/" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20"><g fill="none"><path d="M6 2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H6z" fill="currentColor"/><path d="M13 6.5a.5.5 0 0 1-.41.492L12.5 7h-5a.5.5 0 0 1-.09-.992L7.5 6h5a.5.5 0 0 1 .5.5zm0 3.5a.5.5 0 0 1-.41.492l-.09.008h-5a.5.5 0 0 1-.09-.992L7.5 9.5h5a.5.5 0 0 1 .5.5zm0 3.5a.5.5 0 0 1-.41.492L12.5 14h-5a.5.5 0 0 1-.09-.992L7.5 13h5a.5.5 0 0 1 .5.5z" fill="currentColor" class="fa-secondary"/></g></svg>
+          <span class="link-text">Affiliates & Requirements</span>
+        </a>
+      </li>
+      
+      <li class="nav-item">
+        <a sveltekit:prefetch href="/extra/" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><g fill="none"><path d="M3.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-2zM4 9V8h1v1H4zm3.5-2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM1 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2a2 2 0 0 1 2 2v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 10.5V4zm11.5 6.5a.5.5 0 0 1-.5-.5V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v6.5A1.5 1.5 0 0 0 3.5 12h9a1.5 1.5 0 0 0 1.5-1.5V6a1 1 0 0 0-1-1v5a.5.5 0 0 1-.5.5z" fill="currentColor" class="fa-secondary"/></g></svg>
+          <span class="link-text">Extras</span>
+        </a>
+      </li>
+      </div>
 
       <li class="nav-item">
         <a sveltekit:prefetch href="/" class="nav-link">
@@ -224,6 +229,8 @@ svg {
   transform: rotate(0deg);
 }
 
+
+
 /* Small screens */
 @media only screen and (max-width: 600px) {
   .navbar {
@@ -275,6 +282,10 @@ svg {
   main {
     margin: 0;
   }
+
+  .hide {
+  display: none;
+}
 }
 
 /* Large screens */

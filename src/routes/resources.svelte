@@ -3,7 +3,7 @@
   <div class="entryImg">
 		<img class="bigger" src="img/leaf.jpg" alt="a large bright green leaf centers around a view looking up through trees" />
   
-        <div class="centered"> <h1>Affiliates and Requirments</h1></div>
+        <div class="centered"> <h1>Affiliates and Requirements</h1></div>
     </div>
 
     
@@ -13,7 +13,7 @@
 <div class="affBox">
   <div class="affBox-item">
     <h2>BillingTree</h2>
-    <img class="affBox-img" src="img/billingTree.png" alt="billing tree logo">
+    <img class="affBox-img" src="img/billing-tree.png" alt="billing tree logo">
     <p class="affBox-text">The proven leader in on-demand payment processing, BillingTree simplifies the billing and receivables process. By delivering the most innovative technology and making it as easy and inexpensive as possible to accept payments, BillingTree is revolutionizing the payments landscape.<br> Website: <br> <a href="https://mybillingtree.com/"> www.mybillingtree.com</a></p>
   </div>
   

@@ -123,7 +123,7 @@
     
     .feature {
     max-width: 1100px;
-    margin: 20px auto;
+    margin: 5% auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 4%; 
@@ -139,7 +139,7 @@
     height: fit-content;
     contain: content;
     
-    margin: 10% 0;
+    margin: 10% 3%;
     line-height: 1.7;
     overflow: hidden;
     border-radius: 7px;
@@ -154,6 +154,8 @@
     font-size:1.15vw;
     
 }
+
+
 
 @media (max-width: 991px) {
 

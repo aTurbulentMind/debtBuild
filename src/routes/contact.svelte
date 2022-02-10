@@ -3,7 +3,7 @@
     <div class="entryImg">
 		<img class="bigger" src="img/Ferry.jpg" alt="the sun setting behind a state ferry in travel" />
   
-        <div class="centered"> <h1>Contact Us</h1></div>
+        <div class="centered"> <h1>Contact page</h1></div>
     </div>
 
     <div class="call">
@@ -23,27 +23,103 @@ Bremerton, WA 98312</p>
     </div>
 
     <div class="social">
-        <h2>We have an active LinkedIn account</h2>
-        <a href="https://www.linkedin.com/company/debt-net/">  <img class="socImg" src="img/linked.png" alt="screenshot of the linkden profile page for Debt Net"></a> 
+        <h2>Social Media</h2> 
+        
+        <p><a href="https://www.linkedin.com/company/debt-net/">  Follow us on Linkedin.</a> </p>
+
+        <p><a href="https://www.linkedin.com/company/debt-net/">  Follow us on Facebook.</a> </p>
     </div>
 
-    <div class="form">
-   <h3>Our contact form is a great way to reach us:</h3>
-    <form action="https://formsubmit.co/joelkrivers@yahoo.com" method="POST">
-     <input type="hidden" name="_subject" value="Client submission">    
-     
-     <p>Your email:</p>
-     <input type="email" name="email" placeholder="Email" required>
-     <input type="hidden" name="_next" value="https://tender-benz-1741cd.netlify.app/">
-     
-     <p>Tell us about how we can help you:</p>
-     <textarea name="t1" id="plan_for_art" cols="55" rows="8" required></textarea>
-     <br>
-     
-     <button type="submit">Submit</button>
-    </form>
+   
+    <container>
+        
+        <form action="https://formsubmit.co/joelkrivers@yahoo.com" method="POST">
+            <h2>contact</h2>
+            <wrapper>
+                <box>
+                    <input type="text" name="fname" id="fname" required>
+                    <label for="fname">First and Last Name</label>
+                </box>
+            </wrapper>
 
-    </div>
+            <wrapper>
+                <box>
+                    <input type="text" name="email" id="email" required>
+                    <input type="hidden" name="_next" value="https://tender-benz-1741cd.netlify.app/">
+                    <label for="email">Email</label>
+
+                </box>
+            </wrapper>
+
+           
+
+            <wrapper>
+                <box>
+                    <input type="text" name="tel" id="tel" required>
+                    <label for="tel">Telephone</label>
+                </box>
+            </wrapper>
+
+            <wrapper>
+                <box>
+                    <input type="text" name="comp" id="comp" required>
+                    <label for="comp">Company Name</label>
+                </box>
+            </wrapper>
+
+            <wrapper>
+                <box>
+                    <input type="text" name="sta" id="sta" required>
+                    <label for="tel">State</label>
+                </box>
+            </wrapper>
+
+            
+            <!--
+            <div class="section1">
+            <wrapper>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option</label>
+                    </div>
+                </box>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option2</label>
+                    </div>
+                </box>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option3</label>
+                    </div>
+                </box>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option4</label>
+                    </div>
+                </box>
+            </wrapper>
+            </div>
+        -->
+            <wrapper>
+                <box>
+                    <textarea id="mes" required></textarea>
+                    <label for="mes">Words here and stuff...</label>
+                </box>
+            </wrapper>
+            <br><br><br><br>
+
+          <!-- <input type="submit" name="" value="sedn">--> 
+            <button type="submit">Submit</button>
+        </form>
+    </container>
+
+
+    
 
     <h2>We have a support plan set up to know we will be here the moment you need it.</h2>
         <p  id="bottom20" >
@@ -60,12 +136,49 @@ Bremerton, WA 98312</p>
 <style lang="scss">
     @import 'components';
 
-    
+    *{
+        
+        box-sizing: border-box;
+    }
 
     .call{
 
         p{
             padding-left: 25%;
+        }
+    }
+
+    .social {
+
+        float: left;
+        margin: 5%;
+
+
+        h2{
+            margin-bottom: 5%;
+        }
+        
+        a{ 
+           
+            color: $backgroundMain;
+            
+        }
+
+        p{
+            background: $extra;
+            border-radius: 5px;
+            width: fit-content;
+            text-align: center;
+            overflow-x: hidden;
+            padding: 2%;
+            box-shadow: 0 2px 5px 2px $textMain;
+            cursor: pointer;
+
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 3px 8px 3px $textMain;
+                border: 1px solid $textMain;
+            }
         }
     }
 
@@ -91,17 +204,111 @@ Bremerton, WA 98312</p>
         }
     }
 
-    .form {
-      @include glassBack();
-      margin: 0 13% 25% 13%;
-      padding: 6%;
-      contain: content;
-      border-radius: 8px;
+    //form
+    
 
-      h3, p {
-          margin: 4% 0;
-      }
-   }
+    container{
+        
+        
+
+        h2{
+        color: $backgroundMain;
+        font-size: 3vw;
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+
+    form{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        background: $extra;
+        width: 65%;
+        margin:8%;
+        padding: 4%;
+        border-radius:4px;
+    }
+
+    wrapper{
+        width: 100%;
+        display: grid;
+        grid-gap:30px;
+        gap:30px;
+    }
+
+    box{
+        width: 100%;
+        position: relative;
+        padding: 20px;
+    }
+
+    input,
+    textarea{
+        width: 100%;
+        font-size: 2vw;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid $textMain;
+        transition:0.3s linear;
+    }
+
+    input:focus,
+    input:valid,
+    textarea:focus,
+    textarea:valid{
+        padding: 10px;
+        background: $backgroundSecond;
+        margin: 10px;
+        border-radius:4px;
+    }
+
+    label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: $backgroundSecond;
+        font-size: 2vw;
+        font-weight: bold;
+        padding: 20px;
+        transition: 0.3s linear;
+    }
+
+    input:focus ~ label,
+    input:valid ~ label,
+    textarea:focus ~ label,
+    textarea:valid ~ label{
+        padding: 0;
+    }
+
+    .section1{
+        input{
+            accent-color: hotpink;
+            block-size: 45px;
+            inline-size:18px;
+        }
+
+        input:focus,
+        input:valid,
+        textarea:focus,
+        textarea:valid{
+        padding: 0.5px;
+        margin: 0.5px;
+    }
+    }
+
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        label {
+            padding: 0 10px;
+        }
+    }
+    }
+
 
     button{
     background: rgba(16, 15, 17, 0.616);
@@ -109,7 +316,8 @@ Bremerton, WA 98312</p>
         font-weight: 100;
         letter-spacing: 2px;
         border: 1px solid $extra;
-        color: $textMain;
+        border-radius:4px;
+        color: $backgroundMain;
         text-transform: uppercase;
         padding: 10px;
         margin:15% 0 10% 0;
@@ -125,17 +333,12 @@ Bremerton, WA 98312</p>
     
 
   @media (max-width: 768px) {
-      .form {
-      @include glassBack();
-      margin: 0 3%;
-      padding: 6%;
-      contain: content;
-      border-radius: 8px;
 
-      h3, p {
-          margin: 4% 0;
-      }
-   }
+    .social{
+        float: none;
+    }
+
+      
 
    .socImg {
     width: 90%;
