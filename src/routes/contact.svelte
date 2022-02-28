@@ -33,7 +33,7 @@ Bremerton, WA 98312</p>
    
     <container>
         
-        <form action="https://formsubmit.co/joelkrivers@yahoo.com" method="POST">
+        <form action="https://formsubmit.co/joel@debtnet5.com" method="POST">
             <h2>contact</h2>
             <wrapper>
                 <box>
@@ -45,7 +45,7 @@ Bremerton, WA 98312</p>
             <wrapper>
                 <box>
                     <input type="text" name="email" id="email" required>
-                    <input type="hidden" name="_next" value="https://tender-benz-1741cd.netlify.app/">
+                    <input type="hidden" name="_next" value="https://debtnet5build.netlify.app/">
                     <label for="email">Email</label>
 
                 </box>
