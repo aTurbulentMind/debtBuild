@@ -292,8 +292,12 @@ svg {
 @media only screen and (min-width: 600px) {
   .navbar {
     top: 0;
-    width: 5rem;
+    width: 5.5rem;
     height: 100vh;
+  }
+
+  .nav-link{
+    padding: 0.6rem;
   }
 
   .navbar:hover {
