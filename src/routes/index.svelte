@@ -221,7 +221,24 @@
 		}
 	}
 
+		/*Extra Large screens */
+      	@media only screen and (min-width: 1400px) {
 
+     .prodBar {
+		
+		img {
+			max-width: 10%;
+			margin: -10% 12%;
+			border-radius: 3px;
+		}
+	}
+
+      	}
+
+     
+
+
+	
 
 
 </style>
