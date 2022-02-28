@@ -104,16 +104,17 @@
     <p class="feature-text">We have optimized the collector contact screens for quick and efficient debtor contact. Collectors can contact debtors, set up payment plans, take incoming calls, help other collectors and schedule follow on actions. We have provided options to work a list of scheduled calls for today or a list of all the accounts assigned to them. The collector can work campaigns by ordering the list by balance, status, date last worked, client or priority. The contact screens provide instant access to information on the debtor, multiple accounts, payments, payment plans, contact notes, post dated checks, notice history, etc. The contact notes are unlimited in size. The contact deferral feature automatically reminds the collectors when it is time for a same day call back at a specific time.</p>
   </div>
   
-<div class="feature-item" id="bottom">
-    
-    <h2>Automated Dunning Notices</h2>
-    <p class="feature-text">Debt$Net® lets you create more then twelve hundred notices of your own design. The content of a notice is totally free form, letting you set up any kind of notice you need and easily pull information from the Debt$Net® files into your notice. Besides the standard notice variable, you can calculate data and create your own variables, you can chain notices into a series and have multiple dunning notice series as well. Design one dunning series to accommodate medical collections and another for commercial or retail collections. As accounts are processed through the dunning series, you can automatically turn them over to a collector for a call. The dunning series can update the status, priority or collector assigned to the account. They can interrupt the notification sequence, restart, or redirect it at their discretion. Collectors can even print quick notices without interrupting the processing of the dunning series. Debt$Net® can also export notices to outsource companies.</p>
-  </div>
+
   <br>
 </div>
 
+  
+
   <div class="quick"> <a sveltekit:prefetch href="#top"> To <br> Top</a>
   </div>
+
+  <h2>Automated Dunning Notices</h2>
+    <p class="feature-text">Debt$Net® lets you create more then twelve hundred notices of your own design. The content of a notice is totally free form, letting you set up any kind of notice you need and easily pull information from the Debt$Net® files into your notice. Besides the standard notice variable, you can calculate data and create your own variables, you can chain notices into a series and have multiple dunning notice series as well. Design one dunning series to accommodate medical collections and another for commercial or retail collections. As accounts are processed through the dunning series, you can automatically turn them over to a collector for a call. The dunning series can update the status, priority or collector assigned to the account. They can interrupt the notification sequence, restart, or redirect it at their discretion. Collectors can even print quick notices without interrupting the processing of the dunning series. Debt$Net® can also export notices to outsource companies.</p>
 </body>
 
 
@@ -121,6 +122,10 @@
 
     @import 'components';
     
+    h2{
+      margin: 40% 12% 5% 12%;
+    }
+
     .feature {
     max-width: 1100px;
     margin: 5% auto;
