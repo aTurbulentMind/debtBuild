@@ -297,7 +297,7 @@ svg {
   }
 
   .nav-link{
-    padding: 0.6rem;
+    padding: 0.4rem;
   }
 
   .navbar:hover {
@@ -321,6 +321,17 @@ svg {
   .link-text {
             font-size: 1.5vw;
         }
+}
+
+	
+	/* Large screens */
+@media only screen and (min-width: 1400px) {
+ 
+
+  .nav-link{
+    padding: 1.25rem;
+  }
+
 }
 
 	
