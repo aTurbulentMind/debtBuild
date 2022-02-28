@@ -328,12 +328,10 @@ svg {
 @media only screen and (min-width: 1400px) {
  
 
-  .nav-link{
-    margin: 1.25rem;
-  }
+  
 
   .link-text{
-      font-size:.25vw;
+      font-size:.75vw;
   }
 
 }
