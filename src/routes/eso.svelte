@@ -407,6 +407,9 @@ li.dropdown {
     	/*Extra Large screens */
       	@media only screen and (min-width: 1400px) {
 
+        h2{
+          margin: 0 10%;
+        }
 
         //cards
 
@@ -414,13 +417,14 @@ li.dropdown {
             max-width: 1980px;
             margin: 8%;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
             gap: 2%;
 
             .affBox-text{
               font-size: 1vw;
             }
         }
+
 
       	}
 
