@@ -333,7 +333,7 @@ svg {
   }
 
   .link-text{
-      padding: 0;
+      font-size:.25vw;
   }
 
 }
