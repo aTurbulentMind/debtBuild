@@ -192,5 +192,35 @@ body {
         }
       }
 
+      	/*Extra Large screens */
+      	@media only screen and (min-width: 1400px) {
+
+               
+        h1{
+            font-size: 3vw;
+            margin:15% 12%;
+        }
+
+        h2{
+            font-size:2vw;
+            margin:15% 10%;
+        }
+
+        h3{
+            font-size:2vw;
+            margin:15% 10%;
+        }
+        
+        p {
+            margin:15% 10%;
+            font-size: 1vw;
+        }
+
+        a{
+            font-size:1vw;
+        }
+
+      	}
+
      
 

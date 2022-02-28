@@ -324,7 +324,7 @@ svg {
 }
 
 	
-	/* Large screens */
+	/*Extra Large screens */
 @media only screen and (min-width: 1400px) {
  
 
