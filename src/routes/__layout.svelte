@@ -329,7 +329,7 @@ svg {
  
 
   .nav-link{
-    padding: 1.25rem;
+    margin: 1.25rem;
   }
 
 }
