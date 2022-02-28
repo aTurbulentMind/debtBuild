@@ -331,7 +331,7 @@ svg {
   
 
   .link-text{
-      font-size:.75vw;
+      font-size:.9vw;
   }
 
 }
