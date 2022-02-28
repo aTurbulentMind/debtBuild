@@ -212,6 +212,10 @@
       	/*Extra Large screens */
       	@media only screen and (min-width: 1400px) {
 
+          h2{
+      margin: 10% 12% 5% 12%;
+    }
+
 
         //cards
 
