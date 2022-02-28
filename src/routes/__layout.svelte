@@ -332,6 +332,10 @@ svg {
     margin: 1.25rem;
   }
 
+  .link-text{
+      padding: 0;
+  }
+
 }
 
 	
