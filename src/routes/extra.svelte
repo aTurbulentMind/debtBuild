@@ -327,6 +327,16 @@ li.dropdown {
         }
  }
 
-    
+    /*Extra Large screens */
+      	@media only screen and (min-width: 1400px) {
+
+            container{
+                form{
+        grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
+    }
+            }
+          
+
+      	}
 
 </style>
