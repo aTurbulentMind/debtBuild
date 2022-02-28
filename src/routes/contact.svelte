@@ -347,6 +347,13 @@ Bremerton, WA 98312</p>
  }
   }
 
-  
+    	/*Extra Large screens */
+      	@media only screen and (min-width: 1400px) {
+
+          form{
+        grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
+    }
+
+      	}
 
 </style>
