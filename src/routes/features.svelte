@@ -203,4 +203,24 @@
 
       
       }
+
+      	/*Extra Large screens */
+      	@media only screen and (min-width: 1400px) {
+
+
+        //cards
+
+        .feature {
+            max-width: 1980px;
+            margin: 8%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2%;
+
+            .feature-text{
+              font-size: 1vw;
+            }
+        }
+
+      	}
 </style>
