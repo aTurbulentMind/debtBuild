@@ -24,7 +24,7 @@
 
 <p>Keep up to date with the goins on of the great god Amway! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perferendis cum voluptatem. Corrupti, esse perspiciatis reprehenderit natus incidunt consequatur quos enim voluptate inventore laboriosam aperiam dicta suscipit rem ipsum eius!</p>
 
-<p><a href="/first/"> Join Us. Jump into the void. </a></p>
+<p><a href="/20213.pdf/" download> Join Us. Jump into the void. </a></p>
 
 
 <h2>Events</h2>
