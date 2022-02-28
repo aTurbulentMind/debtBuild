@@ -517,10 +517,14 @@
 
         .affBox {
             max-width: 1980px;
-            margin: 20px auto;
+            margin: 8%;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
             gap: 2%;
+
+            p{
+              font-size: 1vw;
+            }
         }
 
       	}
