@@ -509,5 +509,21 @@
       }
   
 
+      	/*Extra Large screens */
+      	@media only screen and (min-width: 1400px) {
+
+
+        //cards
+
+        .affBox {
+            max-width: 1980px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 2%;
+        }
+
+      	}
+
 
 </style>
