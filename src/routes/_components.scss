@@ -223,11 +223,11 @@ body {
         //cards
 
         .affBox {
-            max-width: 100%;
+            max-width: 1980px;
             margin: 20px auto;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 4%;
+            gap: 2%;
         }
 
       	}
