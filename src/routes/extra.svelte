@@ -356,8 +356,26 @@ li.dropdown {
         
     }
 
-   
-            }
+    .section1{
+        checkbox{
+            padding-top: 50px;
+        }
+
+        input{
+            accent-color: $highlight;
+            block-size: 35px;
+            inline-size:10px;
+        }
+
+        input:focus,
+        input:valid,
+        textarea:focus,
+        textarea:valid{
+        padding: 0.5px;
+        margin: 0.5px;
+    }
+    }
+}
           
 
       	}
