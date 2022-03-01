@@ -30,8 +30,8 @@
 
 <h3>2019 Newsletters:</h3>
 
-<p><a href="/20213.pdf/" download> Spring 2019 </a></p>
-<p><a href="/20213.pdf/" download> Summer 2019 </a></p>
+<p><a href="/20213.pdf/" download> Spring 2019 </a> | <a href="/20213.pdf/" download> Summer 2019 </a></p>
+
 
 <h2>Events</h2>
 
