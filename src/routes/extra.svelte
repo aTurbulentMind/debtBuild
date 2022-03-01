@@ -100,12 +100,11 @@
             <wrapper>
                 <box>
                     <div class="flex-row">
+                     <label for="chk">&nbsp; Free eval form:</label>
                       
                     <p>yes </p> <input type="checkbox" name="check1" id="chk" required>
                       
                      <p>no</p><input type="checkbox" name="check2" id="chk" required>
-                     
-                    <label for="chk">&nbsp; Free eval form:</label>
                     </div>
                 </box>
                 
@@ -117,6 +116,8 @@
                 <box>
                     <div class="flex-row">
                       
+                      <label for="chk">&nbsp; Type of collection agency:</label>  
+
                    <p>legal &nbsp;&nbsp; </p> <input type="checkbox" name="check2" id="chk" required> 
                       <p>medical &nbsp;&nbsp;</p> 
                     <input type="checkbox" name="check2" id="chk" required>
@@ -139,7 +140,7 @@
                       <p>precollect &nbsp;&nbsp; </p>
                     <input type="checkbox" name="check2" id="chk" required>
                      
-                    <label for="chk">&nbsp; Type of collection agency:</label>
+                    
                     </div>
                 </box>
                 
