@@ -353,7 +353,7 @@ li.dropdown {
     input:valid,
     textarea:focus,
     textarea:valid{
-        margin: 10% 1%;
+        margin: 4% 1%;
         
     }
 
@@ -364,7 +364,7 @@ li.dropdown {
 
         input{
             accent-color: $highlight;
-            block-size: 75px;
+            block-size: 95px;
             inline-size:10px;
         }
 
