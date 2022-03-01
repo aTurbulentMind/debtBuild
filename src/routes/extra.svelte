@@ -360,11 +360,12 @@ li.dropdown {
     .section1, .section2{
         checkbox{
             padding-top: 50px;
+            block-size: 95px;
         }
 
         input{
             accent-color: $highlight;
-            block-size: 95px;
+            
             inline-size:10px;
         }
 
