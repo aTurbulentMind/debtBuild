@@ -350,7 +350,7 @@ li.dropdown {
     input:valid,
     textarea:focus,
     textarea:valid{
-        padding: 30px;
+        margin: 30px;
         
     }
             }
