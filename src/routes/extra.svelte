@@ -350,8 +350,28 @@ li.dropdown {
     input:valid,
     textarea:focus,
     textarea:valid{
-        margin: 30px;
+        margin: 10% 5%;
         
+    }
+
+    .section1{
+        checkbox{
+            padding-top: 100px;
+        }
+
+        input{
+            accent-color: $highlight;
+            block-size: 65px;
+            inline-size:20px;
+        }
+
+        input:focus,
+        input:valid,
+        textarea:focus,
+        textarea:valid{
+        padding: 3px;
+        margin: 3px;
+    }
     }
             }
           
