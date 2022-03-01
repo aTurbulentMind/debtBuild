@@ -356,7 +356,8 @@ li.dropdown {
 
     .section1{
         checkbox{
-            padding-top: 100px;
+            padding-top: 50px;
+        
         }
 
         input{
@@ -369,8 +370,8 @@ li.dropdown {
         input:valid,
         textarea:focus,
         textarea:valid{
-        padding: 3px;
-        margin: 3px;
+        padding: 0.75px;
+        margin: 0.75px;
     }
     }
             }
