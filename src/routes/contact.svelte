@@ -352,7 +352,7 @@ Bremerton, WA 98312</p>
 
             container{
                 form{
-        grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
     }
                 input,
     textarea{
