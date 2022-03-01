@@ -111,7 +111,7 @@
             </wrapper>
             </div>
 
-            <div class="section1">
+            <div class="section2">
             <wrapper>
                 <box>
                     <div class="flex-row">
@@ -255,7 +255,7 @@ li.dropdown {
     input:valid,
     textarea:focus,
     textarea:valid{
-        padding: 10px;
+        padding: 7px;
         background: $backgroundSecond;
         margin: 10px;
         border-radius:4px;
@@ -279,7 +279,7 @@ li.dropdown {
         padding: 0;
     }
 
-    .section1{
+    .section1, .section2{
         checkbox{
             padding-top: 50px;
         }
@@ -357,7 +357,7 @@ li.dropdown {
         
     }
 
-    .section1{
+    .section1, .section2{
         checkbox{
             padding-top: 50px;
         }
