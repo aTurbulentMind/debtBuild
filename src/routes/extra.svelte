@@ -352,7 +352,7 @@ li.dropdown {
     input:valid,
     textarea:focus,
     textarea:valid{
-        margin: 10% 5%;
+        margin: 10% 1%;
         
     }
 
