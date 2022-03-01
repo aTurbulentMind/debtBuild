@@ -426,7 +426,7 @@ li.dropdown {
         }
 
         .affBox-img{
-          max-width:10%;
+          max-width:5%;
         }
 
       	}
