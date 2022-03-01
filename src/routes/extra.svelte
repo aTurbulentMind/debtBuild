@@ -116,7 +116,7 @@
                 <box>
                     <div class="flex-row">
                       
-                      <label for="chk">&nbsp; Type of collection agency:</label>  
+                      <label for="chk">&nbsp; Type of collection agency: <br> </label>  
 
                    <p>legal &nbsp;&nbsp; </p> <input type="checkbox" name="check2" id="chk" required> 
                       <p>medical &nbsp;&nbsp;</p> 
@@ -364,8 +364,8 @@ li.dropdown {
 
         input{
             accent-color: $highlight;
-            block-size: 85px;
-            inline-size:30px;
+            block-size: 65px;
+            inline-size:10px;
         }
 
         input:focus,
