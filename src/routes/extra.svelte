@@ -345,6 +345,14 @@ li.dropdown {
     textarea{
         font-size: 1vw;
     }
+
+    input:focus,
+    input:valid,
+    textarea:focus,
+    textarea:valid{
+        padding: 30px;
+        
+    }
             }
           
 
