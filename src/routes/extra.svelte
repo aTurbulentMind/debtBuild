@@ -117,7 +117,7 @@
                 <box>
                     <div class="flex-row">
                       
-                   <p>legal &nbsp;&nbsp; </p> <input type="checkbox" name="check1" id="chk" required> 
+                   <p>legal &nbsp;&nbsp; </p> <input type="checkbox" name="check2" id="chk" required> 
                       <p>medical &nbsp;&nbsp;</p> 
                     <input type="checkbox" name="check2" id="chk" required>
                      
@@ -346,6 +346,8 @@ li.dropdown {
         font-size: 1vw;
     }
 
+    
+
     input:focus,
     input:valid,
     textarea:focus,
@@ -359,6 +361,10 @@ li.dropdown {
             padding-top: 50px;
             margin-top:4%;
         }
+
+        p{
+        margin-top: 5%;
+    }
 
         input{
             accent-color: $highlight;
