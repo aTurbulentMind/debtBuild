@@ -2,10 +2,10 @@
 
     <h1>Extra's Page</h1>
 
-    <h2>Things you can find here</h2>
+    
 
   <ul>
-      
+      <p>Things you can find here</p>
   <li class="dropdown">
     <a href="#skip" class="dropbtn">Newsletter</a>
     </li>
@@ -24,7 +24,7 @@
 
 <p>Keep up to date with the goins on of the great god Amway! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perferendis cum voluptatem. Corrupti, esse perspiciatis reprehenderit natus incidunt consequatur quos enim voluptate inventore laboriosam aperiam dicta suscipit rem ipsum eius!</p>
 
-<h3>2021 Newsletters:</h3>
+<h3>2021 Newsletter:</h3>
 
 <p><a href="/20213.pdf/" download> Summer 2021 </a></p>
 
