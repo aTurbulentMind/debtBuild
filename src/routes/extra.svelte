@@ -324,7 +324,7 @@ li.dropdown {
         text-transform: uppercase;
         padding: 10px;
         margin:0;
-        grid-column: 1 / span 2;
+        grid-column: 1;
 
         &:hover {
            transition: all 0.2s ease-in-out;
