@@ -340,9 +340,11 @@ li.dropdown {
                 form{
         grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
     }
-            label{
-                font-size: 1vw;
-            }
+            
+        input,
+    textarea{
+        font-size: 1vw;
+    }
             }
           
 
