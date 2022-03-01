@@ -425,6 +425,9 @@ li.dropdown {
             }
         }
 
+        .affBox-img{
+          max-width:10%;
+        }
 
       	}
 
