@@ -365,7 +365,7 @@ li.dropdown {
         input{
             accent-color: $highlight;
             block-size: 5px;
-            inline-size:40px;
+            inline-size:4px;
         }
 
         input:focus,
