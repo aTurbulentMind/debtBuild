@@ -30,7 +30,7 @@
 
     <h2 id="skip">Skip Tracing & Scoring</h2>
 
-<div class="affBox">
+    <div class="affBox">
 
   <div class="affBox-item">
     <h2>Accurint® Interface </h2>
@@ -99,13 +99,13 @@
     <p class="affBox-text">
     The NCOA module provides you the capability to process National Change of Address (NCOA) files. The files are created as part of the notice outsourcing process. Agencies which create notice files and forward them to outside vendors often receive back information on changed or incorrect addresses for debtors. The NCOA module will allow you to capture this information electronically.<br> Website: <br><a href="https://www.sungardas.com/en-us/"> www.sungard.com</a></p>
   </div>
-</div>
-<br><br>
-<br  >
 
-    <h2 id="bottom">Debtor Payment Capabilities:</h2>
+  <div class="affBox-item" style="background: none; box-shadow:none;">
+    <p class="affBox-text"></p>
+  </div>
 
-<div class="affBox" id="dePay" >
+  <h2 id="bottom">Debtor Payment Capabilities:</h2>
+  
 
   <div class="affBox-item">
     <h2>PhoneCheck Module </h2>
@@ -132,15 +132,17 @@
     The Credit Card Interface module allows you to instantly verify credit card information and take payments using a VISA or MasterCard. The module provides real-time authorization and credit line hold via your vendor. Credit cards can be used when posting transactions, or when setting up post-dated payments. Credit card information can also be securely stored for future payments.</p>
   </div>
 
+  <div class="affBox-item" style="background: none; box-shadow:none;">
+    <p class="affBox-text"></p>
+  </div>
+  <div class="affBox-item" style="background: none; box-shadow:none;">
+    <p class="affBox-text"></p>
+  </div>
 
-</div>
-
-<br><br><br>
-    <h2 id="deCont">Debtor Contact Enhancements</h2>
-
-<div class="affBox">
+  <h2 id="deCont">Debtor Contact Enhancements</h2>
 
   
+
   <div class="affBox-item">
     <h2>Email Direct</h2>
     
@@ -172,15 +174,15 @@
     Send VoApps a list of phone numbers and VoApps will deliver your voicemail displaying your caller ID. Upload and download of the information is integrated creating a seamless process. Live results and progress can be viewed in real-time on the VoApps user portal. As a result of delivering a voicemail, your collection agents will be thrilled to be answering an influx of inbound phone calls from debtors ready to make payments. Collect money while empowering consumers!</p>
   </div>
 
+  <div class="affBox-item" style="background: none; box-shadow:none;">
+    <p class="affBox-text"></p>
+  </div>
+  
 
-</div>
-
-<br><br><br>
-    <h2 id="bottom80">Information & Data Management</h2>
-
-<div id="info" class="affBox">
+  <h2 id="bottom80">Information & Data Management</h2>
 
   
+
   <div class="affBox-item">
     <h2>Client Upload/Client Input</h2>
     <p class="affBox-text">
@@ -216,28 +218,27 @@
     <p class="affBox-text">
     The UB04 Medical Form Interface module allows you to enter debtor information on the UB04 health insurance claim form and to print the form directly from Debt$Net®. Once completed, the form may be submitted to the appropriate insurance company.</p>
   </div>
-</div>
 
-<br><br><br>
-    <h2 id="cliAcc">Client Access</h2>
+  <div class="affBox-item" style="background: none; box-shadow:none;">
+    <p class="affBox-text"></p>
+  </div><div class="affBox-item" style="background: none; box-shadow:none;">
+    <p class="affBox-text"></p>
+  </div>
 
-<div class="affBox">    
+  <h2 id="cliAcc">Client Access</h2>
 
-  <div class="affBox-item">
+   <div class="affBox-item">
     <h2>WebAccess Interface</h2>
     <img src="img/client-ac.png" alt="client access web logo">
     <p class="affBox-text">
     Client Access Web LogoThe WebAccess Interface allows agencies to interface with a web vendor, giving your client the ability to view and submit new accounts, report payments and review reports. Debt$Net® creates a file that updates the information available to clients, which is then submitted to a web vendor. When WebAccess is coupled with the Client Upload ESO, agencies can import accounts and payment information submitted by the clients from the web.</p>
   </div>
 
-</div>
+  <div class="affBox-item" style="background: none; box-shadow:none;">
+    <p class="affBox-text"></p>
+  </div>
 
-<br><br><br>
-    <h2 id="speci">Specialization</h2>
-
-<div class="affBox" id="bottom20" >
-    
-
+  <h2 id="speci">Specialization</h2>
 
   <div class="affBox-item">
     <h2>Judgment Tracking Module</h2>
@@ -250,14 +251,11 @@
     <p class="affBox-text">
     The Legal Accounting module provides line item tracking of legal expenses incurred during the collection process. Users may track expenses incurred by the agency as well as those prepaid by the client and can instantly tell if a legal expense payment was received from a debtor and whether the client was reimbursed.</p>
   </div>
-
 </div>
 
-<div class="quick"> <a sveltekit:prefetch href="#top"> To <br> Top</a>
-  </div>
+<div class="quick"> <a sveltekit:prefetch href="#top"> To <br> Top</a></div>
 
 </body>
-
 
 <style lang="scss">
     @import 'components';

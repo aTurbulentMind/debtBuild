@@ -1,4 +1,4 @@
-<body>
+
    
 
    <div class="label">
@@ -91,7 +91,7 @@
 
 <slot />
 
-</body>
+
 
 <style lang="scss">
 	@import 'components';
@@ -100,17 +100,14 @@
   .label {
 		overflow-y:hidden;
 		margin: 4%;
-
 	}
 	
 .navbar {
-  
   background:$backgroundHallow;
   box-shadow: 0 3px 8px 3px $textMain;
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-
   position: fixed;
   right: 0;
   transition: width 600ms ease;
@@ -139,9 +136,10 @@
 .nav-link {
   display: flex;
   align-items: center;
-  height: 4rem;
-  padding: 3%;
+  height: fit-content;
+  padding: 5%;
   color: $textMain;
+  font-size: 80%;
   font-weight: 600;
   text-decoration: none;
   filter: grayscale(70%) opacity(0.7);
@@ -168,11 +166,10 @@
         display:none;
     }
 
-
-
 svg {
-  min-width: 2rem;
-  margin: 0 1.25rem;
+  width: 3rem;
+  margin: 3%;
+  appearance: auto;
 }
 }
 
@@ -267,8 +264,6 @@ svg {
         padding: 2px;
         background: #fff;
         display:none;
-    
-
 }
 
   .fa-primary {
@@ -323,20 +318,12 @@ svg {
         }
 }
 
-	
 	/*Extra Large screens */
 @media only screen and (min-width: 1400px) {
  
-
-  
-
   .link-text{
       font-size:.9vw;
   }
-
 }
 
-	
-	
-		
 </style>
