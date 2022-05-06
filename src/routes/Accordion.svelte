@@ -1,10 +1,11 @@
 <script>
     export let heading;
     export let content;
-    export let learnmore;
 
     let isOpen = false;
 </script>
+
+
 
 <button class:active={isOpen} class="accordion" on:click={() => isOpen = !isOpen}>
     <span class="heading">{heading}</span>
@@ -24,29 +25,29 @@
     </div>-->
 </section>
 
-<style>
+<style lang="scss">
+    @import 'styles/components';
 
  /*style open button*/
+    
     button.accordion{
-        background-color: #eee;
-        color: #666;
+        background-color: $backgroundHallow;
         cursor: pointer;
         padding: 15px;
         margin:0 5%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border: 1px solid plum;
+        border: .5px solid $extra;
         width: 80%;
         text-align: left;
-        border: none;
         outline: none;
         transition: 0.4s;
+        
     }
 
     button.accordion:hover, button.accordion.active {
-        background-color: beige;
-        color: chocolate;
+        background-color: $backgroundSecond;
     }
 
     .heading{
@@ -62,13 +63,14 @@
 
     /*mods button back color*/
     button.active, button.accordion:hover{
-        background-color: aqua;
+        background-color: $highlight;
     }
+
+    
 
     /*style acc panel*/
     .panel{
         padding: 0 18px;
-        background-color: beige;
         width: 70%;
         margin:0 6%;
         display: block;
@@ -107,14 +109,12 @@
     section div button {
         width: 150px;
         font-weight: bold;
-        color: aliceblue;
-        background-color: blue;
         padding: 10px 0;
         margin: 10px 10px 20px;
         cursor: pointer;
     }
 
     div button:active {
-        background-color: hsl(11, 63%, 34%);
+        background-color: hsl(213, 63%, 34%);
     }
 </style>
