@@ -1,0 +1,38 @@
+//colors
+
+$textMain: rgb(2, 3, 3);
+$textSecond: #071f49;
+$backgroundMain:rgb(254, 255, 254);
+$backgroundSecond:rgb(230, 230, 230);
+$backgroundHallow:rgba(230, 230, 230, 0.5);
+$extra:#0a3176;
+$highlight:#13675e;
+$gradient:linear-gradient(90deg, rgb(14, 14, 5) 0%, rgb(19, 48, 51) 35%, rgb(62, 35, 92) 100%);
+
+//font stack
+$mainFont: 'Jost', sans-serif;
+
+//extra
+
+$transitSpeed: 0.3s;
+
+// mixins
+
+@mixin glassBack() {
+    background:#0a327628;
+    box-shadow: 0 3px 8px 3px $textMain;
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+// set txt color
+//@function set-text-color($color) {
+//    @if(lightness($color) > 70) {
+//        @return #333;
+//    }
+//
+//    @else {
+//        @return $textColorMain;
+//    }
+//}
