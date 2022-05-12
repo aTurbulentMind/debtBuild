@@ -53,7 +53,7 @@
             <wrapper>
                 <box>
                     <input type="text" name="fname" id="fname" required>
-                    <label for="fname">First and Last Name</label>
+                    <label for="fname">First and Last</label>
                 </box>
             </wrapper>
 
@@ -111,33 +111,33 @@
             </wrapper>
             </div>
 
-            <div class="section2">
+            <div class="section2 double">
             <wrapper>
                 <box>
                     <div class="flex-row">
                       
-                      <label for="chk">&nbsp; Type of collection agency: <br> </label>  
+                      <label for="chk">&nbsp; Type of collection agency: <br> <br></label>  
 
-                   <p>legal &nbsp;&nbsp; </p> <input type="checkbox" name="check2" id="chk" required> 
-                      <p>medical &nbsp;&nbsp;</p> 
+                   <p>legal </p> <input type="checkbox" name="check2" id="chk" required> 
+                      <p>medical</p> 
                     <input type="checkbox" name="check2" id="chk" required>
                      
-                     <p>1stparty &nbsp;&nbsp;</p>
+                     <p>1stparty</p>
                     <input type="checkbox" name="check2" id="chk" required>
                       
-                      <p>retail &nbsp;&nbsp;</p>
+                      <p>retail</p>
                     <input type="checkbox" name="check2" id="chk" required>
                       
-                      <p>check &nbsp;&nbsp;</p>
+                      <p>check</p>
                     <input type="checkbox" name="check2" id="chk" required>
                       
-                      <p>commercial &nbsp;&nbsp;</p>
+                      <p>commercial </p>
                     <input type="checkbox" name="check2" id="chk" required>
                       
-                      <p>portfolio purchase &nbsp;&nbsp;</p>
+                      <p>portfolio purchase </p>
                     <input type="checkbox" name="check2" id="chk" required>
                       
-                      <p>precollect &nbsp;&nbsp; </p>
+                      <p>precollect  </p>
                     <input type="checkbox" name="check2" id="chk" required>
                      
                     
@@ -148,7 +148,7 @@
             </div>
        
 
-          <!-- <input type="submit" name="" value="sedn">--> 
+          <!-- <input type="submit" name="" value="send">--> 
             <button type="submit">Submit</button>
         </form>
     </container>
@@ -211,25 +211,25 @@ li.dropdown {
         
 
         h2{
-        
         font-size: 3vw;
         text-align: center;
-        grid-column: 1 / span 2;
+        grid-column: 1;
     }
 
         p{
-          margin:1% 5%;
+          margin:3% 5%;
           text-transform: capitalize;
         }
 
     form{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
         background: $extra;
         width: 75%;
         margin:8%;
         padding: 4%;
         border-radius:4px;
+        box-shadow: 0 2px 20px 2px $shadow;
     }
 
     wrapper{
@@ -245,9 +245,13 @@ li.dropdown {
         padding: 20px;
     }
 
+    .double{
+        grid-column: span 3;
+    }
+
     input,
     textarea{
-        width: 90%;
+        width: 100%;
         font-size: 2vw;
         background: transparent;
         border: none;
@@ -260,7 +264,7 @@ li.dropdown {
     input:valid,
     textarea:focus,
     textarea:valid{
-        padding: 7px;
+        padding: 10px;
         background: $backgroundSecond;
         margin: 10px;
         border-radius:4px;
@@ -286,12 +290,12 @@ li.dropdown {
 
     .section1, .section2{
         checkbox{
-            padding-top: 50px;
+            padding-top: 80px;
         }
 
         input{
             accent-color: $highlight;
-            block-size: 65px;
+            block-size: 85px;
             inline-size:20px;
         }
 
@@ -329,15 +333,33 @@ li.dropdown {
         text-transform: uppercase;
         padding: 10px;
         margin:0;
-        grid-column: 2;
+        grid-column: 1;
 
         &:hover {
-           transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
         background: $textMain;
         color: $backgroundMain;
         transform: scale(1.05);
         }
  }
+
+     @media (max-width: 768px) {
+
+        container{
+            form{
+                width: 80%;
+            }
+            label{
+                font-size: 3vw;
+                padding: 5px;
+            }
+
+            .double{
+                grid-column: span 1;
+            }
+        }
+            
+    }
 
     /*Extra Large screens */
       	@media only screen and (min-width: 1400px) {
@@ -359,7 +381,6 @@ li.dropdown {
     textarea:focus,
     textarea:valid{
         margin: 4% 1%;
-        
     }
 
     .section1, .section2{

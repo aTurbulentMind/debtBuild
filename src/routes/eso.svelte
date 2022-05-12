@@ -9,6 +9,8 @@
     import MapModal from './components/MapModal.svelte';//the modal popup in the accordion items
 </script>
 
+<body>
+    
 
 <header>
     <h1>Eso</h1>
@@ -76,7 +78,7 @@
 
 
 <!--this is where the acc ends-->
-
+</body>
 
 <style lang="scss">
     @import 'styles/components';

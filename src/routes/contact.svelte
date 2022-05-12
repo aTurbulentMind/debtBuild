@@ -34,7 +34,15 @@ Bremerton, WA 98312</p>
     <container>
         
         <form action="https://formsubmit.co/joel@debtnet5.com" method="POST">
-            <h2>contact</h2>
+            <h2 class="double">Contact:</h2>
+            
+            <wrapper>
+                <box>
+                    
+                    <label for="fname"></label>
+                </box>
+            </wrapper>
+            
             <wrapper>
                 <box>
                     <input type="text" name="fname" id="fname" required>
@@ -114,7 +122,7 @@ Bremerton, WA 98312</p>
             <br><br><br><br>
 
           <!-- <input type="submit" name="" value="sedn">--> 
-            <button type="submit">Submit</button>
+            <button class="double" type="submit">Submit</button>
         </form>
     </container>
 
@@ -151,7 +159,7 @@ Bremerton, WA 98312</p>
     .social {
 
         float: left;
-        margin: 5%;
+        margin: 2%;
 
         h2{
             margin-bottom: 5%;
@@ -159,6 +167,7 @@ Bremerton, WA 98312</p>
         
         a{ 
             color: $backgroundMain;
+            font-size: 1.75vw;
         }
 
         p{
@@ -168,8 +177,9 @@ Bremerton, WA 98312</p>
             text-align: center;
             overflow-x: hidden;
             padding: 2%;
-            box-shadow: 0 2px 5px 2px $textMain;
+            box-shadow: 0 2px 20px 2px $shadow;
             cursor: pointer;
+            
 
             &:hover{
                 transform: scale(1.1);
@@ -199,23 +209,27 @@ Bremerton, WA 98312</p>
 
     //form
     container{
-    
-        h2{
+        
+        
+
+    h2{
         color: $backgroundMain;
         font-size: 3vw;
         text-align: center;
-        grid-column: 1 / span 2;
+        grid-column: 1 ;
     }
 
     form{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
         background: $extra;
         width: 65%;
         margin:8%;
         padding: 4%;
         border-radius:4px;
+        box-shadow: 0 2px 20px 2px $shadow;
     }
+    
 
     wrapper{
         width: 100%;
@@ -321,6 +335,15 @@ Bremerton, WA 98312</p>
 
   @media (max-width: 768px) {
 
+        container{
+            form{
+                width: 85%;
+            }
+            label{
+                font-size: 3vw;
+                padding: 5px 10px;
+            }
+        }
             .social{
                 float: none;
             }

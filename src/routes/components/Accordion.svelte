@@ -5,8 +5,6 @@
     let isOpen = false;
 </script>
 
-
-
 <button class:active={isOpen} class="accordion" on:click={() => isOpen = !isOpen}>
     <span class="heading">{heading}</span>
     {#if isOpen}
@@ -39,21 +37,25 @@
         justify-content: space-between;
         align-items: center;
         border: .5px solid $extra;
-        width: 85%;
+        width: 80%;
         text-align: left;
         outline: none;
         transition: 0.4s;
-        
     }
 
     button.accordion:hover, button.accordion.active {
         background-color: $backgroundSecond;
     }
 
+    .heading{
+        font-size: 1.45vw;
+    }
+
     p{
         text-align: justify;
         padding: 0 10px;
         margin: 3%;
+        font-size: 1.35vw;
     }
 
     /*mods button back color*/
@@ -65,10 +67,14 @@
     .panel{
         padding: 0 18px;
         width: 75%;
-        margin:0 8%;
+        margin:0 6%;
         display: block;
         height: 0;
         overflow: hidden;
+
+        p{
+            font-size: 1.35vw;
+        }
     }
 
     .open-panel{
@@ -110,4 +116,35 @@
     div button:active {
         background-color: hsl(213, 63%, 34%);
     }
+
+    
+    @media (max-width: 768px) {
+         button.accordion{
+        padding: 15px;
+        margin:0 10%;
+        width: 80%;
+    }
+
+        .heading{
+        font-size: 3vw;
+    }
+
+        .panel{
+        padding: 0 18px;
+        width: 70%;
+        margin:0 12%;
+        overflow: hidden; 
+
+        p{
+            font-size: 3.35vw;
+            margin: 0 5%;
+        }
+    }
+       
+      }
+
+    @media only screen and (min-width: 770px) {}
+
+      	/*Extra Large screens */
+    @media only screen and (min-width: 1400px) {}
 </style>

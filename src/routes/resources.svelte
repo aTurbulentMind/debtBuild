@@ -12,6 +12,8 @@
     }
 </script>
 
+<body>
+    
 
 <header>
     <h1>Affiliates and Requirements</h1>
@@ -146,7 +148,7 @@
     </tbody>
 </table>
 
-
+</body>
 <style lang="scss">
     @import 'styles/components';
 

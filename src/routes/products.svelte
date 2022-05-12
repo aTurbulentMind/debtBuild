@@ -133,11 +133,9 @@ There are three options available:
 
 </div>
 
-<h1 id="feat"  >Features</h1>
+<h1 id="feat">Features</h1>
 
-<h3 id="bottom20">Debt$Net® offers all the features, flexibility and sophistication of mainframe packages at an affordable price.
-
-Click <a href="/features/">here</a> to see the many features Debt$Net® offer.</h3>
+<h4 class="feat">Debt$Net® offers all the features, flexibility and sophistication of mainframe packages at an affordable price. Click <a href="/features/">here</a> to see the many features Debt$Net® offer.</h4>
 
 
 <div class="quick"> <a sveltekit:prefetch href="#top"> To <br> Top</a>
@@ -161,6 +159,15 @@ ul {
   p {
     margin: 0;
     cursor: pointer;
+  }
+}
+
+h4{
+  margin:7% 12%;
+  font-size: 1.5vw;
+
+  a{
+    font-size: 1.5vw;
   }
 }
 
@@ -215,11 +222,25 @@ li.dropdown {
         display: initial;
         list-style: none;
         background: transparent;
-        font-size: 1.25vw;
+        font-size: 1.5vw;
     }
 
     span{
         font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      .list, h4{
+        font-size: 3.25vw;
+    }
+
+    .feat{
+      margin-bottom: 17%;
+
+      a{
+        font-size: 3.25vw;
+      }
+    }
     }
 
 
