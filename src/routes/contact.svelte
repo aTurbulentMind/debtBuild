@@ -177,7 +177,7 @@ Bremerton, WA 98312</p>
             text-align: center;
             overflow-x: hidden;
             padding: 2%;
-            box-shadow: 0 2px 20px 2px $shadow;
+            box-shadow: 0 2px 20px 2px rgba(6, 2, 7, 0.464);
             cursor: pointer;
             
 
@@ -227,7 +227,7 @@ Bremerton, WA 98312</p>
         margin:8%;
         padding: 4%;
         border-radius:4px;
-        box-shadow: 0 2px 20px 2px $shadow;
+        box-shadow: 0 2px 20px 2px rgba(6, 2, 7, 0.464);
     }
     
 
