@@ -229,7 +229,7 @@ li.dropdown {
         margin:8%;
         padding: 4%;
         border-radius:4px;
-        box-shadow: 0 2px 20px 2px $shadow;
+        box-shadow: 0 2px 20px 2px $Shadows;
     }
 
     wrapper{
