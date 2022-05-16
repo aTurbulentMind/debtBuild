@@ -243,5 +243,22 @@ li.dropdown {
     }
     }
 
+    	/*Extra Large screens */
+      	@media only screen and (min-width: 1400px) {
+
+            //globals   
+
+            body{
+        .list, h4{
+        font-size: 1.15vw;
+    }
+
+      a{
+        font-size: 1.15vw;
+      }
+    }
+}
+      	
+
 
 </style>
