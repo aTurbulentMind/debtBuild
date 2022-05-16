@@ -372,39 +372,42 @@ li.dropdown {
                 form{
         grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
     }
+
+            label{
+                font-size: 1.5vw;
+                padding: 5px;
+                }
             
-        input,
-    textarea{
-        font-size: 1vw;
-    }
+            input,
+            textarea{
+                font-size: 1vw;
+                }
 
-    
+            input:focus,
+            input:valid,
+            textarea:focus,
+            textarea:valid{
+                margin: 4% 1%;
+            }
 
-    input:focus,
-    input:valid,
-    textarea:focus,
-    textarea:valid{
-        margin: 4% 1%;
-    }
-
-    .section1, .section2{
-        checkbox{
+            .section1, .section2{
+            checkbox{
             padding-top: 50px;
-        }
+            }
 
-        input{
+            input{
             accent-color: $highlight;
             block-size: 100px;
             inline-size:20px;
-        }
+            }
 
-        input:focus,
-        input:valid,
-        textarea:focus,
-        textarea:valid{
-        padding: 0.5px;
-        margin: 0.5px;
-    }
+            input:focus,
+            input:valid,
+            textarea:focus,
+            textarea:valid{
+            padding: 0.5px;
+            margin: 0.5px;
+            }
     }
 }
           
