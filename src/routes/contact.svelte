@@ -365,6 +365,7 @@ Bremerton, WA 98312</p>
 
                 label{
                 font-size: 1.5vw;
+                padding: 40px;
                 }
 
                 input, textarea{
