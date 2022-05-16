@@ -168,6 +168,10 @@ h1{
     margin-top: 5%;
 }
 
+h3{
+    margin:2% 10%
+}
+
     
 ul {
   float: right;

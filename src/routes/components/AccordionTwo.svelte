@@ -46,6 +46,7 @@
         text-align: left;
         outline: none;
         transition: 0.4s;
+        box-shadow: 0 2px 20px 2px $extraExtra;
     }
 
     button.accordion:hover, button.accordion.active {

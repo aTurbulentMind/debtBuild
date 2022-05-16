@@ -64,21 +64,20 @@
           <span class="link-text">Contact & Support</span>
         </a>
       </li>
-      <div class="hide">
-      <li class="nav-item">
+      
+      <li class="nav-item hide">
         <a sveltekit:prefetch href="/resources/" class="nav-link">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20"><g fill="none"><path d="M6 2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H6z" fill="currentColor"/><path d="M13 6.5a.5.5 0 0 1-.41.492L12.5 7h-5a.5.5 0 0 1-.09-.992L7.5 6h5a.5.5 0 0 1 .5.5zm0 3.5a.5.5 0 0 1-.41.492l-.09.008h-5a.5.5 0 0 1-.09-.992L7.5 9.5h5a.5.5 0 0 1 .5.5zm0 3.5a.5.5 0 0 1-.41.492L12.5 14h-5a.5.5 0 0 1-.09-.992L7.5 13h5a.5.5 0 0 1 .5.5z" fill="currentColor" class="fa-secondary"/></g></svg>
           <span class="link-text">Affiliates & Requirements</span>
         </a>
       </li>
       
-      <li class="nav-item">
+      <li class="nav-item hide">
         <a sveltekit:prefetch href="/extra/" class="nav-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><g fill="none"><path d="M3.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-2zM4 9V8h1v1H4zm3.5-2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM1 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2a2 2 0 0 1 2 2v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 10.5V4zm11.5 6.5a.5.5 0 0 1-.5-.5V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v6.5A1.5 1.5 0 0 0 3.5 12h9a1.5 1.5 0 0 0 1.5-1.5V6a1 1 0 0 0-1-1v5a.5.5 0 0 1-.5.5z" fill="currentColor" class="fa-secondary"/></g></svg>
           <span class="link-text">Extras</span>
         </a>
       </li>
-      </div>
 
       <li class="nav-item">
         <a sveltekit:prefetch href="/" class="nav-link">
@@ -104,9 +103,9 @@
 	
 .navbar {
   background:$backgroundHallow;
-  box-shadow: 0 3px 8px 3px $textMain;
-  backdrop-filter: blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
+  box-shadow: 0 3px 8px 3px $extraExtra;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   position: fixed;
   right: 0;
@@ -228,7 +227,7 @@ svg {
 
 
 /* Small screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     bottom: 0;
     width: 100vw;
@@ -284,7 +283,7 @@ svg {
 }
 
 /* Large screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .navbar {
     top: 0;
     width: 5.5rem;
@@ -314,7 +313,7 @@ svg {
   }
 
   .link-text {
-            font-size: 1.5vw;
+            font-size:1.4vw;
         }
 }
 

@@ -162,9 +162,9 @@
        border-collapse: collapse;
        margin: 8%;
        min-width: 400px;
-       border-radius: 5px 5px 0 0;
+       border-radius: 5px;
        overflow: hidden;
-       box-shadow: 0 0 20px rgba(0,0,0,0.1);
+       box-shadow: 0 2px 20px 2px $extraExtra;;
 
     thead tr{
        background-color: $highlight;
