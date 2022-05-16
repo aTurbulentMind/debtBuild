@@ -230,7 +230,6 @@ Bremerton, WA 98312</p>
         box-shadow: 0 2px 20px 2px $extraExtra;
     }
     
-
     wrapper{
         width: 100%;
         display: grid;
@@ -363,6 +362,11 @@ Bremerton, WA 98312</p>
                 form{
                 grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
                 }
+
+                label{
+                font-size: 1.5vw;
+                }
+
                 input, textarea{
                 font-size: 1vw;
                 }
