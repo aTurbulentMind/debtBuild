@@ -91,10 +91,10 @@
 
             <wrapper>
                 <box>
-                    <textarea id="mes" required></textarea>
-                    <label for="mes">Comments</label>
+                    
                 </box>
             </wrapper>
+
             
             <div class="section1">
             <wrapper>
@@ -120,27 +120,25 @@
 
                    <p>legal </p> <input type="checkbox" name="check2" id="chk" required> 
                       <p>medical</p> 
-                    <input type="checkbox" name="check2" id="chk" required>
+                    <input type="checkbox" name="check1" id="chk" required>
                      
                      <p>1stparty</p>
                     <input type="checkbox" name="check2" id="chk" required>
                       
                       <p>retail</p>
-                    <input type="checkbox" name="check2" id="chk" required>
+                    <input type="checkbox" name="check3" id="chk" required>
                       
                       <p>check</p>
-                    <input type="checkbox" name="check2" id="chk" required>
+                    <input type="checkbox" name="check4" id="chk" required>
                       
                       <p>commercial </p>
-                    <input type="checkbox" name="check2" id="chk" required>
+                    <input type="checkbox" name="check5" id="chk" required>
                       
                       <p>portfolio purchase </p>
-                    <input type="checkbox" name="check2" id="chk" required>
+                    <input type="checkbox" name="check6" id="chk" required>
                       
-                      <p>precollect  </p>
-                    <input type="checkbox" name="check2" id="chk" required>
-                     
-                    
+                      <p>precollect</p>
+                    <input type="checkbox" name="check7" id="chk" required>
                     </div>
                 </box>
                 

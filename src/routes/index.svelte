@@ -1,9 +1,29 @@
 <body>
-	<div class="entryImg">
-		<img src="img/Mt.jpg" alt="Mt Rainer covered in snow and sun in the background of a lake view" />
-  
-        <div class="centered"> <h1>The Computer Manager, inc.</h1></div>
-</div>
+
+	<div class="art-banner" id="art-banner">
+    <div class="art-banner-bg"></div>
+    <!-- <div class="banner-text">Debt$Net</div>-->
+    <div class="badge">
+    	<p><a href="https://www.linkedin.com/company/debt-net/"> LinkedIn</a></p>
+    </div>
+
+	<div class="form">
+        
+        <form action="https://formsubmit.co/joelkrivers@gmail.com" method="POST">
+            <wrapper>
+                <box>
+                    <input type="text" name="email" id="email" placeholder="Ask a question" required>
+                    <input type="hidden" name="_next" value="https://www.lanternlightdevelopment.com/contact">
+                    
+                </box>
+            </wrapper>
+            <br>
+            <button type="submit">Contact</button>
+        </form>
+        
+    </div>
+
+    </div>
 
 	<h1>Debt collection software by The Computer Manager, inc.</h1>
 
@@ -17,12 +37,19 @@
 
 	<div class="contBar">
 		<h2>Contact Us</h2>
+		<div class="mail">
+        <h2>Our postal address is:</h2>
+        <p>The Computer Manager, Inc. <br>
+            4110 Kitsap Way Suite 101 <br>
+            Bremerton, WA 98312 <br>
+            P.O. Box 4091</p>
+    	</div>
 		<p>Whether a comment or question, we could love to hear from you.</p>
-		<a sveltekit:prefetch href="/contact/">Here</a>
+		<p><a sveltekit:prefetch href="/contact/">Here</a></p>
 	</div>
 
-	<img class="indi" src="img/PowerLogo.jpg" alt="the debt net prestige logo" />
 	
+	<img class="indi" src="img/PrestigeLogo.jpg" alt="the debt net power logo" />
 	<p>
 		Debt$Net® Prestige is the latest product by Debt$Net® Collection Software. This version of the
 		award-winning collection agency software is SQL based using the powerful SQL Server by
@@ -31,7 +58,7 @@
 		stability required by high capacity business.
 	</p>
 
-	<img class="indi" src="img/PrestigeLogo.jpg" alt="the debt net power logo" />
+	<img class="indi" src="img/PowerLogo.jpg" alt="the debt net prestige logo" />
 
 	<p>
 		Debt$Net® Power is the heritage product by Debt$Net® Collection Software. For over 20 years,
@@ -111,6 +138,8 @@
 <style lang="scss">
 	@import 'styles/components';
 
+	
+
 	h3 {
 		font-style: italic;
 		font-weight: 600;
@@ -121,6 +150,109 @@
 		margin: 0 0 4% 18%;
 	}
 
+	
+.art-banner {
+    background-color: rgb(0, 80, 112);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr 20px;
+    grid-template-rows: 20px 1fr 1fr 1fr 20px;
+
+	input,
+    textarea{
+        width: 100%;
+        font-size: 3vw;
+        background: $backgroundSecond;
+        border: none;
+        border-radius:2px;
+        outline: none;
+        border-bottom: 1px solid $textMain;
+        transition:0.3s linear;
+    }
+
+    input:focus,
+    input:valid,
+    textarea:focus,
+    textarea:valid{
+        padding: 10px;
+        color: $textMain;
+        background: $backgroundSecond;
+        margin: 10px;
+        border-radius:4px;
+        font-size: 2.5vw;
+    }
+}
+
+.art-banner-bg {
+    background: url(img/Mt.jpg);
+    background-size: cover;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+	
+}
+
+.banner-text {
+	@include glassBack();
+
+    color: #fff;
+    font-size: 6vw;
+    font-weight: bold;
+    grid-column: 1 / span 2;
+    grid-row: 2 /* no need to type one*/;
+    align-self: center;
+    justify-self: center;
+}
+
+.form {
+    grid-column: 2;
+    grid-row: 4;
+    z-index: 10;
+	margin: 12%;
+
+	button{
+		background: $extra;
+        outline: none;
+        font-weight: 500;
+        letter-spacing: 4px;
+        border: 1px solid $extra;
+        border-radius:4px;
+        color: $backgroundMain;
+        text-transform: uppercase;
+        padding: 5px;
+        margin: 14%;
+        font-family: $mainFont;
+
+
+        &:hover {
+        transition: all 0.3s ease-in-out;
+        background: $textMain;
+        color: $backgroundMain;
+        font-weight: 800;
+        transform: scale(1.05);
+        cursor: pointer;
+        }
+}
+}
+
+.badge {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-column: 4 / 5;
+    grid-row: 4 / 4;
+    background-color: $backgroundMain;
+    font-size: 2.5vw;
+    font-weight: bold;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    transform: rotate(15deg);
+
+	p {
+    margin:auto;
+}
+}
+
 	.contBar {
 		background: $extra;
 		color: $backgroundMain;
@@ -129,7 +261,7 @@
 
 		a {
 			background: $textSecond;
-			border-radius: 4% 4% 0 0;
+			border-radius: 4px;
 			padding: 1%;
 			margin: 60%;
 			color: $backgroundMain;
@@ -140,7 +272,17 @@
 				transition: $transitSpeed;
 			}
 		}
+
+		p{
+			margin: 6% 10%;
+		}
 	}
+
+	.mail{
+        h2{
+			margin: -5% 10%;
+		}
+    }
 
 	.testim {
 		background: $extra;

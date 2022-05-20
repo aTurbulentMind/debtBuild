@@ -1,29 +1,37 @@
 <body>
-
-    <div class="entryImg">
-		<img class="bigger" src="img/Ferry.jpg" alt="the sun setting behind a state ferry in travel" />
-  
-        <div class="centered"> <h1>Contact page</h1></div>
-    </div>
+    
+    <h1>Contact page</h1>
 
     <div class="call">
         <h2>Give us a call at:</h2>
         <p>Toll free: <a href="tel: +8005528397/">+1(800)552-8397</a> <br>
         Fax: <a href="+2532042349/">1-253-204-2349</a> </p>
 </div>
+
+
+<h2>We have a support plan set up to know we will be here when you need it.</h2>
+        <p  id="bottom20" >
+            Debt$Net® technical support plans suit different purposes. Initial Purchase Support provides 90 days of technical phone support and comes as part of the purchase price of Debt$Net®. Other support plans, such as Hour Based Plans and the Unlimited Support plan provide technical support services for agencies after the Initial Purchase Support time expires. The paragraphs below explain each support plan.
+<br><br><br><br>
+<span> Initial Purchase Support:</span> The initial purchase of Debt$Net® includes telephone technical support. It provides five hours of time for the multi-user version, and three hours for the single-user version. This 90 day phase of technical support provides assistance to new customers for the installation and configuration of Debt$Net® software. Technicians log all time spent on the telephone with the Technical Support Department against the initial support hours, regardless of the nature of the problem. When 90 days has elapsed, or when the support time has been consumed, TCM offers continued support through one of the Debt$Net® support plans described below.
+<br><br><br><br>
+<span> Hour Based Plans: </span>The Hour Based Plans provide agencies with hour blocks of telephone technical support per quarter. The hour based blocks are available at a 2 hour level, 4 hour level and 8 hour level. This plan type benefits experienced agencies with consistent support requirements. The Technical Support Department tracks support time and deducts it from the agency's quarterly time allocation. Technicians provide support during normal TCM business hours. Time deducts from the quarterly allocation regardless of the nature of the problem. When needed, agencies purchase additional support time at the published hourly rate for their level. Agencies must pay for additional time in advance and all time expires at the end of the quarter.
+<br><br><br><br>
+<span>Unlimited Support Plan:</span>  The Unlimited Support Plan provides "as required" technical support during normal business hours. Technicians do not track support time and time allocations do not apply. The Technical Support Department provides services directly covered by the support plan without requiring additional time purchases. Under this plan, the agency pays a flat fee once per quarter. The plan covers only assistance with Debt$Net®. This plan benefits large agencies or agencies with high support requirements that do not want to face unplanned additional support expenses.
+        </p>
     
     
 
     <div class="mail">
         <h2>Our postal address is:</h2>
         <p>The Computer Manager, Inc. <br>
-4110 Kitsap Way Suite 101 <br>
-P.O. Box 4091 <br>
-Bremerton, WA 98312</p>
+            4110 Kitsap Way Suite 101 <br>
+            Bremerton, WA 98312 <br>
+            P.O. Box 4091</p>
     </div>
 
     <div class="social">
-        <h2>Social Media</h2> 
+        <h2>Social media:</h2> 
         
         <p><a href="https://www.linkedin.com/company/debt-net/">  Follow us on Linkedin.</a> </p>
 
@@ -116,29 +124,15 @@ Bremerton, WA 98312</p>
             <wrapper>
                 <box>
                     <textarea id="mes" required></textarea>
-                    <label for="mes">Words here and stuff...</label>
+                    <label for="mes">Anything else?</label>
                 </box>
             </wrapper>
-            <br><br><br><br>
 
           <!-- <input type="submit" name="" value="sedn">--> 
-            <button class="double" type="submit">Submit</button>
+            <button type="submit">Submit</button>
         </form>
     </container>
 
-
-    
-
-    <h2>We have a support plan set up to know we will be here the moment you need it.</h2>
-        <p  id="bottom20" >
-            Debt$Net® technical support plans suit different purposes. Initial Purchase Support provides 90 days of technical phone support and comes as part of the purchase price of Debt$Net®. Other support plans, such as Hour Based Plans and the Unlimited Support plan provide technical support services for agencies after the Initial Purchase Support time expires. The paragraphs below explain each support plan.
-<br><br><br><br>
-<span> Initial Purchase Support:</span> The initial purchase of Debt$Net® includes telephone technical support. It provides five hours of time for the multi-user version, and three hours for the single-user version. This 90 day phase of technical support provides assistance to new customers for the installation and configuration of Debt$Net® software. Technicians log all time spent on the telephone with the Technical Support Department against the initial support hours, regardless of the nature of the problem. When 90 days has elapsed, or when the support time has been consumed, TCM offers continued support through one of the Debt$Net® support plans described below.
-<br><br><br><br>
-<span> Hour Based Plans: </span>The Hour Based Plans provide agencies with hour blocks of telephone technical support per quarter. The hour based blocks are available at a 2 hour level, 4 hour level and 8 hour level. This plan type benefits experienced agencies with consistent support requirements. The Technical Support Department tracks support time and deducts it from the agency's quarterly time allocation. Technicians provide support during normal TCM business hours. Time deducts from the quarterly allocation regardless of the nature of the problem. When needed, agencies purchase additional support time at the published hourly rate for their level. Agencies must pay for additional time in advance and all time expires at the end of the quarter.
-<br><br><br><br>
-<span>Unlimited Support Plan:</span>  The Unlimited Support Plan provides "as required" technical support during normal business hours. Technicians do not track support time and time allocations do not apply. The Technical Support Department provides services directly covered by the support plan without requiring additional time purchases. Under this plan, the agency pays a flat fee once per quarter. The plan covers only assistance with Debt$Net®. This plan benefits large agencies or agencies with high support requirements that do not want to face unplanned additional support expenses.
-        </p>
 </body>
 
 <style lang="scss">
@@ -202,8 +196,12 @@ Bremerton, WA 98312</p>
         background: $extra;
         color: $backgroundMain;
 
+        h2{
+            padding: 8%;
+        }
         p{
-            padding-left: 25%;
+            padding: 25%;
+            margin: -30% 0 5% 0;
         }
     }
 

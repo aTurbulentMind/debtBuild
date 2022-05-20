@@ -17,13 +17,13 @@
 
 <header>
     <h1>Affiliates and Requirements</h1>
-    <p>Nice words about our awesome partners and affiliates.</p>
+    <p>Nice words about our awesome vendors partners and affiliates.</p>
     
 </header>
 
 <!--this is where the accordion starts-->
 
-<h2>Skip Tracing & Scoring:</h2>
+<h2>Vendor Partners:</h2>
 
 {#if modalShowing}
     <MapModal mapurl={continentMap} on:click={() => modalShowing = false} />
@@ -42,7 +42,7 @@
 
 
 <!--this is where the acc ends-->
-<br> <h2>Requirments.</h2>
+<br> <h2>Requirements:</h2>
         <h2>Server:</h2>
 
 <table class="content-table">
@@ -80,7 +80,7 @@
 <table class="content-table">
     <thead>
         <tr>
-            <th>PrestigueS requirements:</th>
+            <th>PrestigeS requirements:</th>
             <th>Minimum</th>
             <th>Recommended</th>
         </tr>

@@ -1,10 +1,6 @@
 <body>
 
-   <div class="entryImg">
-		<img class="bigger" src="img/Cover.jpg" alt="" />
-  
-        <div class="centered"> <h1 id="top" >Sales Approach</h1></div>
-    </div>
+   <h1>Services</h1>
 
     <ul>
       
