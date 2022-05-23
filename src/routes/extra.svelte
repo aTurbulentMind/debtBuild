@@ -89,67 +89,50 @@
                 </box>
             </wrapper>
 
+           
+
+            
             <wrapper>
-                <box>
-                    
-                </box>
+            <box>
+            <div class="select">
+            <select name="format" id="format">
+            <option selected disabled>Free eval form?</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            </select>
+            </div>
+            </box>
+            </wrapper>
+
+           
+
+            
+            <wrapper>
+            <box>
+            <div class="select">
+            <select name="format" id="format">
+            <option selected disabled>Type of collection agency:</option>
+            <option value="legal">Legal</option>
+            <option value="medical">Medical</option>
+            <option value="firstparty">1stparty</option>
+            <option value="retail">Retail</option>
+            <option value="check">Check</option>
+            <option value="commercial">Commercial</option>
+            <option value="portfolio">Portfolio Purchase</option>
+            <option value="precollect">Precollect</option>
+            </select>
+            </div>
+            </box>
             </wrapper>
 
             
-            <div class="section1">
-            <wrapper>
-                <box>
-                    <div class="flex-row">
-                     <label for="chk">&nbsp; Free eval form:</label>
-                      
-                    <p>yes </p> <input type="checkbox" name="check1" id="chk" required>
-                      
-                     <p>no</p><input type="checkbox" name="check2" id="chk" required>
-                    </div>
-                </box>
-                
-            </wrapper>
-            </div>
-
-            <div class="section2 double">
-            <wrapper>
-                <box>
-                    <div class="flex-row">
-                      
-                      <label for="chk">&nbsp; Type of collection agency: <br> <br></label>  
-
-                   <p>legal </p> <input type="checkbox" name="check2" id="chk" required> 
-                      <p>medical</p> 
-                    <input type="checkbox" name="check1" id="chk" required>
-                     
-                     <p>1stparty</p>
-                    <input type="checkbox" name="check2" id="chk" required>
-                      
-                      <p>retail</p>
-                    <input type="checkbox" name="check3" id="chk" required>
-                      
-                      <p>check</p>
-                    <input type="checkbox" name="check4" id="chk" required>
-                      
-                      <p>commercial </p>
-                    <input type="checkbox" name="check5" id="chk" required>
-                      
-                      <p>portfolio purchase </p>
-                    <input type="checkbox" name="check6" id="chk" required>
-                      
-                      <p>precollect</p>
-                    <input type="checkbox" name="check7" id="chk" required>
-                    </div>
-                </box>
-                
-            </wrapper>
-            </div>
-       
 
           <!-- <input type="submit" name="" value="send">--> 
             <button type="submit">Submit</button>
         </form>
     </container>
+
+    
 
 
 </body>
@@ -162,7 +145,7 @@
         box-sizing: border-box;
     }
 
-h1{
+    h1{
     margin-top: 5%;
 }
 
@@ -344,6 +327,51 @@ li.dropdown {
         transform: scale(1.05);
         }
  }
+
+ select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   background: $textSecond;
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:$backgroundMain;
+   cursor:pointer;
+   font-size: 1em;
+   font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   width: 20em;
+   height: 3em;
+   line-height: 3;
+   background: $textSecond;
+   overflow: hidden;
+   border-radius: .25em;
+   
+}
+.select::after {
+   content: '\25BC';
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: rgba(16, 15, 17, 0.616);
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+.select:hover::after {
+   color: #23b499;
+}
 
      @media (max-width: 768px) {
 

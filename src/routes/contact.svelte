@@ -27,7 +27,7 @@
         <p>The Computer Manager, Inc. <br>
             4110 Kitsap Way Suite 101 <br>
             Bremerton, WA 98312 <br>
-            P.O. Box 4091</p>
+            PO Box 4091</p>
     </div>
 
     <div class="social">

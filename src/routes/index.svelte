@@ -2,7 +2,7 @@
 
 	<div class="art-banner" id="art-banner">
     <div class="art-banner-bg"></div>
-    <!-- <div class="banner-text">Debt$Net</div>-->
+     <div class="banner-text">Debt$Net, your favorite debt collection software</div>
     <div class="badge">
     	<p><a href="https://www.linkedin.com/company/debt-net/"> LinkedIn</a></p>
     </div>
@@ -11,8 +11,8 @@
         
         <form action="https://formsubmit.co/joelkrivers@gmail.com" method="POST">
             <wrapper>
-                <box>
-                    <input type="text" name="email" id="email" placeholder="Ask a question" required>
+                <box>A
+                    <input type="text" name="email" id="email" placeholder="Email" required>
                     <input type="hidden" name="_next" value="https://www.lanternlightdevelopment.com/contact">
                     
                 </box>
@@ -42,7 +42,7 @@
         <p>The Computer Manager, Inc. <br>
             4110 Kitsap Way Suite 101 <br>
             Bremerton, WA 98312 <br>
-            P.O. Box 4091</p>
+            PO Box 4091</p>
     	</div>
 		<p>Whether a comment or question, we could love to hear from you.</p>
 		<p><a sveltekit:prefetch href="/contact/">Here</a></p>
@@ -174,12 +174,9 @@
     input:valid,
     textarea:focus,
     textarea:valid{
-        padding: 10px;
         color: $textMain;
         background: $backgroundSecond;
-        margin: 10px;
         border-radius:4px;
-        font-size: 2.5vw;
     }
 }
 
@@ -195,12 +192,14 @@
 	@include glassBack();
 
     color: #fff;
-    font-size: 6vw;
+    font-size: 4.5vw;
     font-weight: bold;
-    grid-column: 1 / span 2;
+    grid-column: 2 / span 2;
     grid-row: 2 /* no need to type one*/;
     align-self: center;
     justify-self: center;
+	margin-left: 5%;
+	padding: 2%;
 }
 
 .form {
